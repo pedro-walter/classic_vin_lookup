@@ -66,7 +66,7 @@ def tri_650_63_69(vin):
     if g[0]=='du' and int(g[1]) >= 101 and int(g[1]) <= 90282 and len(g[1]) == len(str(int(g[1]))):
         for key, v in tri_650_63_69_code.items():
             if v[0] <= int(g[1]) <= v[1]:
-                return 'Engine No. Unit 650cc Model year ' + key
+                return 'Unit 650cc Model year ' + key
 
 def tri_57_69(vin):
     vin = vin.lower()
@@ -75,7 +75,7 @@ def tri_57_69(vin):
     if g[0]=='h' and int(g[1]) >= 101 and int(g[1]) <= 90282 and len(g[1]) == len(str(int(g[1]))):
         for key, v in tri_57_69_code.items():
             if v[0] <= int(g[1]) <= v[1]:
-                return 'Model year ' + key
+                return 'Unit 350/500 Model year ' + key
 
 def tri_69_80(vin):
     vin = vin.lower()
@@ -83,7 +83,7 @@ def tri_69_80(vin):
     g = alpha_digit.groups()
     prefixes = [m[0] + m[1] for m in permutations('abcdeghjknpx', 2)]
     if alpha_digit and g[0] in prefixes:
-        return 'Built ' + tri_69_83_pre_code[g[0][0]][0] + ' 19' + tri_69_83_pre_code[g[0][1]][1]
+        return 'Triumph Twins, Triples & Singles Built ' + tri_69_83_pre_code[g[0][0]][0] + ' 19' + tri_69_83_pre_code[g[0][1]][1]
 
 def tri_81_83(vin):
     '''
@@ -99,7 +99,7 @@ def tri_81_83(vin):
     g = alpha_digit.groups()
     prefixes = [m[0] + m[1] for m in permutations('abcdeghjknpx', 2)]
     if alpha_digit and g[0][:2] in prefixes and len(g[0])==3 and g[0][-1]=='a':
-        return 'Built ' + tri_69_83_pre_code[g[0][0]][0] + ' 19' + tri_69_83_pre_code[g[0][1:]][1]
+        return '500/650 Unit Construction Built ' + tri_69_83_pre_code[g[0][0]][0] + ' 19' + tri_69_83_pre_code[g[0][1:]][1]
 
 
 ###############################################
