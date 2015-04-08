@@ -44,21 +44,48 @@ triumph_codes = (
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 49833, 57082), 'h49833 - h57082', 'Unit 350/500 Model year 1967'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 57083, 65572), 'h57083 - h65572', 'Unit 350/500 Model year 1968'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 65573, 67331), 'h65573 - h67331', 'Unit 350/500 Model year 1969'),
-    (r'^([abcdeghjknpx]{2,2})(\d+)$', None, None,   'Triumph Twins, Triples & Singles Built 68-80'),
-    (r'^([k,e,b,][d,e][a])(\d+)$', None, None,      'Triumph Twins, Triples & Singles Built 81-83')
+    (r'^([abcdeghjknpx]{2,2})(\d+)$', None, None,   'Triumph Twins, Triples & Singles Built '),
+    (r'^([k,e,b,][d,e][a])(\d+)$', None, None,      'Triumph Twins, Triples & Singles Built ')
     )
+
+tri_69_83_pre_code = {'a': ('January', '78-79'),
+                      'b': ('February', '79-80'),
+                      'c': ('March', '68-69'),
+                      'd': ('April', '69-70'),
+                      'e': ('May', '70-71'),
+                      'g': ('June', '71-72'),
+                      'h': ('July', '72-23'),
+                      'j': ('August', '73-74'),
+                      'k': ('September', '74-75'),
+                      'n': ('October', '75-76'),
+                      'p': ('November', '76-77'),
+                      'x': ('December', '77-78'),
+                      'ca': (None, '80-81'),
+                      'da': (None, '81-82'),
+                      'ea': (None, '82-83')}
 
 def decode(vin):
     vin = vin.lower()
     match_list = []
     for row in triumph_codes:
         m1 = re.match(row[0], vin)
-        if m1:
+        if m1 and 'twins' not in row[1]:
             vin_num = m1.groups()[row[1][0]]
             #print(vin_num)
             if row[1][1] <= int(vin_num) <= row[1][2]:
-                print(row[3], v)
+                #print(row[3], v)
                 match_list.append(row[3])
+        elif m1 and 'twins' in row[1]:
+            month = codes_69_83[m1.groups()[0][0]][0]
+            year = codes_69_83[m1.groups()[0][1]][1]
+            if len(m1.groups()[0])==2:
+                result = row[3] + month + ', ' + year + ' Season'
+                match_list.append(result)
+            elif len(m1.groups()[0])==3:
+                month = codes_69_83[m1.groups()[0][0]][0]
+                year = codes_69_83[m1.groups()[0][1:3]][1]
+                result = row[3] + month + ', ' + year + ' Season'
+                match_list.append(result)
     return match_list
 
 ###############################################
