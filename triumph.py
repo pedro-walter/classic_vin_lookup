@@ -26,7 +26,7 @@ triumph_codes = (
     (r'^(\d)$', (0, 600476, 603029), 'Eng. 5929 to 7896 Frm. 600476 to 603029', 'Frame#, JUNIOR 2STROKE Model 1921'),
     (r'^(\d)$', (0, 7897, 8364),     'Eng. 7897 to 8364 Frm. 602562 to 603029', 'Engine#, JUNIOR 2STROKE Model 1922'),
     (r'^(\d)$', (0, 602562, 603029), 'Eng. 7897 to 8364 Frm. 602562 to 603029', 'Frame#, JUNIOR 2STROKE Model 1922'),
-    (r'^(\d)$', (0, 8365, 8364),     'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Engine#, JUNIOR 2STROKE Model 1923'),
+    (r'^(\d)$', (0, 8365, 8364),     'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Engine#, JUNIOR 2STROKE Model 1923, 250 cc begins at 8501'),
     (r'^(\d)$', (0, 603030, 651000), 'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Frame#, JUNIOR 2STROKE Model 1923'),
 
     (r'^(\d{3,4})(n)$',          (0, 100, 9999),    'From 100N',        'Engine No. Pre-Unit 500 & 650cc 1950'),
@@ -72,7 +72,7 @@ triumph_codes = (
     (r'^([k,e,b,][d,e][a])(\d+)$', None, None,      'Triumph Twins, Triples & Singles Built ')
     )
 
-tri_69_83_pre_code = {'a': ('January', '78-79'),
+codes_69_83 = {'a': ('January', '78-79'),
                       'b': ('February', '79-80'),
                       'c': ('March', '68-69'),
                       'd': ('April', '69-70'),
@@ -95,9 +95,9 @@ def decode(vin):
         m1 = re.match(row[0], vin)
         if m1 and 'twins' not in row[1]:
             vin_num = m1.groups()[row[1][0]]
-            #print(vin_num)
+            # print(vin_num)
             if row[1][1] <= int(vin_num) <= row[1][2]:
-                #print(row[3], v)
+                # print(row[3], v)
                 match_list.append(row[3])
         elif m1 and 'twins' in row[1]:
             month = codes_69_83[m1.groups()[0][0]][0]
