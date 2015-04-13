@@ -8,6 +8,27 @@ from itertools import permutations
 prefixes_69_80 = [m[0] + m[1] for m in permutations('abcdeghjknpx', 2)]
 
 triumph_codes = (
+    (r'^(\d)$', (0, 1, 109),         'Eng. 01 to 109 Frm. 194877 to 194883',    'Engine#, JUNIOR 2STROKE Model 1913'),
+    (r'^(\d)$', (0, 194877, 194883), 'Eng. 01 to 109 Frm. 194877 to 194883',    'Frame#, JUNIOR 2STROKE Model 1913'),
+    (r'^(\d)$', (0, 110, 790),       'Eng 110 to 790 Frm. 256191 to256876',     'Engine#, JUNIOR 2STROKE Model 1914'),
+    (r'^(\d)$', (0, 256191, 256876), 'Eng 110 to 790 Frm. 256191 to256876',     'Frame#, JUNIOR 2STROKE Model 1914'),
+    (r'^(\d)$', (0, 791, 1885),      'Eng. 791 to 1885 Frm. 256879 to 257970',  'Engine#, JUNIOR 2STROKE Model 1915'),
+    (r'^(\d)$', (0, 256879, 257970), 'Eng. 791 to 1885 Frm. 256879 to 257970',  'Frame#, JUNIOR 2STROKE Model 1915'),
+    (r'^(\d)$', (0, 1886, 2487),     'Eng. 1886 to 2487 Frm. 257971 to 258534', 'Engine#, JUNIOR 2STROKE Model 1916'),
+    (r'^(\d)$', (0, 257971, 258534), 'Eng. 1886 to 2487 Frm. 257971 to 258534', 'Frame#, JUNIOR 2STROKE Model 1916'),
+    (r'^(\d)$', (0, 2488, 2620),     'Eng. 2488 to 2620 Frm. 258535 to 258726', 'Engine#, JUNIOR 2STROKE Model 1917-18'),
+    (r'^(\d)$', (0, 258535, 258726), 'Eng. 2488 to 2620 Frm. 258535 to 258726', 'Frame#, JUNIOR 2STROKE Model 1917-18'),
+    (r'^(\d)$', (0, 2621, 3660),     'Eng. 2621 to 3660 Frm. 258727 to 259534', 'Engine#, JUNIOR 2STROKE Model 1919'),
+    (r'^(\d)$', (0, 258727, 259534), 'Eng. 2621 to 3660 Frm. 258727 to 259534', 'Frame#, JUNIOR 2STROKE Model 1919'),
+    (r'^(\d)$', (0, 3661, 5928),     'Eng. 3661 to 5928 Frm. 259535 to 600475', 'Engine#, JUNIOR 2STROKE Model 1920'),
+    (r'^(\d)$', (0, 259535, 600475), 'Eng. 3661 to 5928 Frm. 259535 to 600475', 'Frame#, JUNIOR 2STROKE Model 1920'),
+    (r'^(\d)$', (0, 5929, 7896),     'Eng. 5929 to 7896 Frm. 600476 to 603029', 'Engine#, JUNIOR 2STROKE Model 1921'),
+    (r'^(\d)$', (0, 600476, 603029), 'Eng. 5929 to 7896 Frm. 600476 to 603029', 'Frame#, JUNIOR 2STROKE Model 1921'),
+    (r'^(\d)$', (0, 7897, 8364),     'Eng. 7897 to 8364 Frm. 602562 to 603029', 'Engine#, JUNIOR 2STROKE Model 1922'),
+    (r'^(\d)$', (0, 602562, 603029), 'Eng. 7897 to 8364 Frm. 602562 to 603029', 'Frame#, JUNIOR 2STROKE Model 1922'),
+    (r'^(\d)$', (0, 8365, 8364),     'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Engine#, JUNIOR 2STROKE Model 1923'),
+    (r'^(\d)$', (0, 603030, 651000), 'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Frame#, JUNIOR 2STROKE Model 1923'),
+
     (r'^(\d{3,4})(n)$',          (0, 100, 9999),    'From 100N',        'Engine No. Pre-Unit 500 & 650cc 1950'),
     (r'^(\d{3,5})(na)$',         (0, 101, 15808),   '101NA, 15808NA',   'Engine No. Pre-Unit 500 & 650cc 1951'),
     (r'^(\d{5,5})(na)$',         (0, 101, 15808),   '15809NA, 25000NA',  'Engine No. Pre-Unit 500 & 650cc 1952'),
@@ -24,6 +45,7 @@ triumph_codes = (
     (r'^(d)(\d{3,4})$',          (1, 101, 7726),    'then D101 - D7726', 'Engine No. Pre-Unit 500 & 650cc 1960'),
     (r'^(d)([7,8,9,1]\d{3,4})$', (1, 7727, 15788),  'D7727 - D15788',    'Engine No. Pre-Unit 500 & 650cc 1961'),
     (r'^(d)([1,2,3]\d{4,4})$',   (1, 15789, 30000), 'D15789 on',         'Engine No. Pre-Unit 500 & 650cc 1962'),
+
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 101, 5824),    'DU101 - DU5824',    'Unit 650cc  Model year 1963'),
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 5825, 13374),  'DU5825 - DU513374', 'Unit 650cc  Model year 1964'),
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 13375, 24874), 'DU101 - DU5824',  'Unit 650cc  Model year 1965'),
@@ -31,6 +53,7 @@ triumph_codes = (
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 44394, 66245), 'DU101 - DU5824',  'Unit 650cc  Model year 1967'),
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 66246, 85903), 'DU101 - DU5824',  'Unit 650cc  Model year 1968'),
     (r'^(du)([1,2,3]\d{3,4})$',  (1, 85904, 90282), 'DU101 - DU5824',  'Unit 650cc  Model year 1969'),
+
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 101, 760),     'h101 - h760',     'Unit 350/500 Model year 1957'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 761, 5484),    'h761 - h5484',    'Unit 350/500 Model year 1958'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 5485, 11511),  'h5485 - h11511',  'Unit 350/500 Model year 1959'),
@@ -44,6 +67,7 @@ triumph_codes = (
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 49833, 57082), 'h49833 - h57082', 'Unit 350/500 Model year 1967'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 57083, 65572), 'h57083 - h65572', 'Unit 350/500 Model year 1968'),
     (r'^(h)([1,2,3]\d{3,4})$',   (1, 65573, 67331), 'h65573 - h67331', 'Unit 350/500 Model year 1969'),
+
     (r'^([abcdeghjknpx]{2,2})(\d+)$', None, None,   'Triumph Twins, Triples & Singles Built '),
     (r'^([k,e,b,][d,e][a])(\d+)$', None, None,      'Triumph Twins, Triples & Singles Built ')
     )
