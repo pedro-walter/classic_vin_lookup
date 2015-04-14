@@ -93,23 +93,26 @@ def decode(vin):
     match_list = []
     for row in triumph_codes:
         m1 = re.match(row[0], vin)
-        if m1 and 'twins' not in row[1]:
-            vin_num = m1.groups()[row[1][0]]
-            # print(vin_num)
-            if row[1][1] <= int(vin_num) <= row[1][2]:
-                # print(row[3], v)
-                match_list.append(row[3])
-        elif m1 and 'twins' in row[1]:
-            month = codes_69_83[m1.groups()[0][0]][0]
-            year = codes_69_83[m1.groups()[0][1]][1]
-            if len(m1.groups()[0])==2:
-                result = row[3] + month + ', ' + year + ' Season'
-                match_list.append(result)
-            elif len(m1.groups()[0])==3:
+        try:
+            if m1 and 'twins' not in row[1]:
+                vin_num = m1.groups()[row[1][0]]
+                # print(vin_num)
+                if row[1][1] <= int(vin_num) <= row[1][2]:
+                    # print(row[3], v)
+                    match_list.append(row[3])
+            elif m1 and 'twins' in row[1]:
                 month = codes_69_83[m1.groups()[0][0]][0]
-                year = codes_69_83[m1.groups()[0][1:3]][1]
-                result = row[3] + month + ', ' + year + ' Season'
-                match_list.append(result)
+                year = codes_69_83[m1.groups()[0][1]][1]
+                if len(m1.groups()[0])==2:
+                    result = row[3] + month + ', ' + year + ' Season'
+                    match_list.append(result)
+                elif len(m1.groups()[0])==3:
+                    month = codes_69_83[m1.groups()[0][0]][0]
+                    year = codes_69_83[m1.groups()[0][1:3]][1]
+                    result = row[3] + month + ', ' + year + ' Season'
+                    match_list.append(result)
+        except:
+            match_list.append('No Match')
     return match_list
 
 ###############################################
