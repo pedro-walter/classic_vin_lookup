@@ -111,8 +111,11 @@ def decode(vin):
                     year = codes_69_83[m1.groups()[0][1:3]][1]
                     result = row[3] + month + ', ' + year + ' Season'
                     match_list.append(result)
+                else:
+                    match_list.append('Found No Match')
+                    
         except:
-            match_list.append('No Match')
+            match_list.append('Match Error')
     return match_list
 
 ###############################################
