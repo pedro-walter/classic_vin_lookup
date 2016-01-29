@@ -8,6 +8,7 @@ from itertools import permutations
 prefixes_69_80 = [m[0] + m[1] for m in permutations('abcdeghjknpx', 2)]
 
 triumph_codes = (
+    # All 1913-1923
     (r'^(\d+)$', (0, 1, 109),         'Eng. 01 to 109 Frm. 194877 to 194883',    'Engine#, JUNIOR 2STROKE Model 1913'),
     (r'^(\d+)$', (0, 194877, 194883), 'Eng. 01 to 109 Frm. 194877 to 194883',    'Frame#, JUNIOR 2STROKE Model 1913'),
     (r'^(\d+)$', (0, 110, 790),       'Eng 110 to 790 Frm. 256191 to256876',     'Engine#, JUNIOR 2STROKE Model 1914'),
@@ -28,7 +29,7 @@ triumph_codes = (
     (r'^(\d+)$', (0, 602562, 603029), 'Eng. 7897 to 8364 Frm. 602562 to 603029', 'Frame#, JUNIOR 2STROKE Model 1922'),
     (r'^(\d+)$', (0, 8365, 8364),     'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Engine#, JUNIOR 2STROKE Model 1923, 250 cc begins at 8501'),
     (r'^(\d+)$', (0, 603030, 651000), 'Eng. 8365 to 8364 Frm. 603030 to 651000', 'Frame#, JUNIOR 2STROKE Model 1923'),
-
+    # All pre-unit 1950-1962
     (r'^(\d{3,4})(n)$',          (0, 100, 9999),    'From 100N',        'Engine No. Pre-Unit 500 & 650cc 1950'),
     (r'^(\d{3,5})(na)$',         (0, 101, 15808),   '101NA, 15808NA',   'Engine No. Pre-Unit 500 & 650cc 1951'),
     (r'^(\d{5,5})(na)$',         (0, 101, 15808),   '15809NA, 25000NA',  'Engine No. Pre-Unit 500 & 650cc 1952'),
@@ -45,7 +46,7 @@ triumph_codes = (
     (r'^(d)(\d{3,4})$',          (1, 101, 7726),    'then D101 - D7726', 'Engine No. Pre-Unit 500 & 650cc 1960'),
     (r'^(d)([7,8,9,1]\d{3,4})$', (1, 7727, 15788),  'D7727 - D15788',    'Engine No. Pre-Unit 500 & 650cc 1961'),
     (r'^(d)([1,2,3]\d{4,4})$',   (1, 15789, 30000), 'D15789 on',         'Engine No. Pre-Unit 500 & 650cc 1962'),
-
+    # Unit 650cc
     (r'^(du)(\d{3,4})$',         (1, 101, 5824),    'DU101 - DU5824',    'Unit 650cc  Model year 1963'),
     (r'^(du)(\d{4,5})$',         (1, 5825, 13374),  'DU5825 - DU13374', 'Unit 650cc  Model year 1964'),
     (r'^(du)(\d{5})$',           (1, 13375, 24874), 'DU13375 - DU24874',  'Unit 650cc  Model year 1965'),
@@ -53,7 +54,7 @@ triumph_codes = (
     (r'^(du)(\d{5})$',           (1, 44394, 66245), 'DU44394 - DU66245',  'Unit 650cc  Model year 1967'),
     (r'^(du)(\d{5})$',           (1, 66246, 85903), 'DU66246 - DU85903',  'Unit 650cc  Model year 1968'),
     (r'^(du)(\d{5})$',           (1, 85904, 90282), 'DU85904 - DU90282',  'Unit 650cc  Model year 1969'),
-
+    # Unit 350/500
     (r'^(h)(\d{3})$',     (1, 101, 760),     'h101 - h760',     'Unit 350/500 Model year 1957'),
     (r'^(h)(\d{3,4})$',   (1, 761, 5484),    'h761 - h5484',    'Unit 350/500 Model year 1958'),
     (r'^(h)(\d{4,5})$',   (1, 5485, 11511),  'h5485 - h11511',  'Unit 350/500 Model year 1959'),
@@ -67,7 +68,7 @@ triumph_codes = (
     (r'^(h)(\d{5})$',     (1, 49833, 57082), 'h49833 - h57082', 'Unit 350/500 Model year 1967'),
     (r'^(h)(\d{5})$',     (1, 57083, 65572), 'h57083 - h65572', 'Unit 350/500 Model year 1968'),
     (r'^(h)(\d{5})$',     (1, 65573, 67331), 'h65573 - h67331', 'Unit 350/500 Model year 1969'),
-
+    # Twins and triples
     (r'^([abcdeghjknpx]{2,2})(\d+)$', None, None,   'Triumph Twins, Triples & Singles Built '),
     (r'^([k,e,b,][d,e][a])(\d+)$', None, None,      'Triumph Twins, Triples & Singles Built ')
     )
@@ -107,7 +108,7 @@ def decode(vin):
             try:
                 month = codes_69_83[m1.groups()[0][0]][0]
                 year = codes_69_83[m1.groups()[0][1]][1]
-                print(m1.groups())
+                #print(m1.groups())
                 if len(m1.groups()[0])==2:
                     result = row[3] + month + ', ' + year + ' Season'
                     match_list.append(result)
@@ -125,7 +126,7 @@ def decode(vin):
 # Quick test
 definitions = [decode]
 #vins = ['DU5826', 'DU5824']
-vins = ['HK12345', 'h29733', 'du35987', '194878', 'DU5826', 'h40528', '5928'  ]
+vins = ['HK12345', 'h29733', 'du35987', '194878', 'DU5826', 'h40528', '5928']
 for v in vins:
     print('**** ' + v + ' ****')
     for d in definitions:
