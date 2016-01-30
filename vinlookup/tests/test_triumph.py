@@ -1,5 +1,5 @@
 from unittest import TestCase
-from vinlookup import triumph as t
+import triumph as t
 
 
 class test_tri_decode(TestCase):
