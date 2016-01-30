@@ -22,7 +22,7 @@ def decode(vin):
     :return: matching model and year details
     """
     return pass
-    
+
 if __name__ == '__main__':
     #Prepare command-line execution
     import argparse
@@ -41,4 +41,4 @@ if __name__ == '__main__':
         #Parse number given
     else:
         #Display help and info
-        parser.print_help()    
+        parser.print_help()
