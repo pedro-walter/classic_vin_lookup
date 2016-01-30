@@ -22,3 +22,23 @@ def decode(vin):
     :return: matching model and year details
     """
     return pass
+    
+if __name__ == '__main__':
+    #Prepare command-line execution
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='BSA number analyser')
+    parser.add_argument('--number', '-n', help='BSA NUMBER to be analyzed')
+    parser.add_argument('--run-tests', action='store_true', help='Run a few tests')
+    
+    args = parser.parse_args()
+    
+    if args.run_tests:
+        pass
+        #Add tests here
+    elif args.number:
+        print(decode(args.number))
+        #Parse number given
+    else:
+        #Display help and info
+        parser.print_help()    
