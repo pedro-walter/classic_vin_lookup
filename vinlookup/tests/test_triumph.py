@@ -9,10 +9,10 @@ class test_tri_decode(TestCase):
         for v, r in vins:
             self.assertEqual(t.decode(v), r)
 
-     def test_pre_unit_1950_1962(self):
-            vins = (('du35987', ['Unit 650cc  Model year 1966']),)
-            for v, r in vins:
-                self.assertEqual(t.decode(v), r)
+    def test_pre_unit_1950_1962(self):
+        vins = (('du35987', ['Unit 650cc  Model year 1966']),)
+        for v, r in vins:
+            self.assertEqual(t.decode(v), r)
 
     def test_unit650(self):
         vins = (('du35987', ['Unit 650cc  Model year 1966']),)
