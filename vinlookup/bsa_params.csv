@@ -1,0 +1,19 @@
+Class	Year	Model	Part Type	Part Description	Regex			Range Group	Range Start	Range End
+Bantam	1949	D1		Engine		Wipac				^(u?yd)-(\d+)$	1			101			20000
+Bantam	1949	D1		Frame		Rigid				^(yd1)-(\d+)$	1			101			20000
+Bantam	1950	D1		Engine		Wipac				^(u?yd)-(\d+)$	1			20001		99999
+Bantam	1950	D1		Engine		Lucas				^(u?ydl)-(\d+)$	1			101			20000
+Bantam	1950	D1		Frame		Rigid				^(yd1)-(\d+)$	1			20001		40000
+Bantam	1950	D1		Frame		Spring				^(yd1s)-(\d+)$	1			20001		40000
+Bantam	1951	D1		Engine		Wipac				^(yd1)-(\d+)$	1			40001		63000
+Bantam	1951	D1		Engine		Lucas				^(ydl1)-(\d+)$	1			3001		8000
+Bantam	1951	D1		Frame		Rigid				^(yd1)-(\d+)$	1			40001		63000
+Bantam	1951	D1		Frame		Spring				^(yd1s)-(\d+)$	1			40001		63000
+Bantam	1952	D1		Engine		Wipac				^(yd1)-(\d+)$	1			63001		64000
+Bantam	1952	D1		Engine		Lucas				^(ydl1)-(\d+)$	1			8001		99999
+Bantam	1952	D1		Frame		Rigid				^(yd1)-(\d+)$	1			64001		99999
+Bantam	1952	D1		Frame		Spring				^(yd1s)-(\d+)$	1			64001		99999
+Bantam	1953	D1		Engine		Wipac				^(bd2)-(\d+)$	1			101			14599
+Bantam	1953	D1		Engine		Lucas				^(bd2l)-(\d+)$	1			101			14599
+Bantam	1953	D1		Frame		Rigid				^(bd2)-(\d+)$	1			101			14599
+Bantam	1953	D1		Frame		Spring				^(bd2s)-(\d+)$	1			101			14599
