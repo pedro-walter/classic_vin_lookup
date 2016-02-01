@@ -13,7 +13,6 @@ Examples:
         Major Model: C Range Sub Model: C11 Engine Start:  ZC11-101 Engine # end:  Frame # start: ZC10-101 Frame # end:  Frame Type: Rigid Notes and options:  Gears:  Electric:
 """
 import re
-import pdb
 
 class BsaPart():
     def __init__(self):
@@ -121,7 +120,7 @@ if __name__ == '__main__':
             'YD1S-67526',
             'BD2-110',
             'BD2L-120',
-            'BD2S-130',
+            'BD2S-130',            
         ]
         for vin in vins:
             print("*** "+vin+" ***")
