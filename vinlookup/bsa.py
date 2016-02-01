@@ -31,7 +31,7 @@ class BsaPart():
                        ";Description="+self.part_description+">"
  
 class BsaMatcher():
-    """
+    """                          
     Used for matching a BSA Part Number with it's corresponding BSA Part.
     The Part Numbers have the format: <Code>-<Range#>
     """
@@ -77,7 +77,6 @@ def decode(vin):
     :param vin: frame or engine number
     :return: matching model(s), year(s) and part(s) details
     """
-<<<<<<< HEAD
     vin = vin.lower()
     match_list = []
     for matcher in bsa_matchers:
@@ -91,10 +90,6 @@ def decode(vin):
                 pass
     return match_list
     
-=======
-    return pass
-
->>>>>>> 6fd8a2d337175f13fc23e69a7c24bcd6ecec02d5
 if __name__ == '__main__':
     #Prepare command-line execution
     import argparse
@@ -136,4 +131,4 @@ if __name__ == '__main__':
         print(decode(args.number))
     else:
         #Display help and info
-        parser.print_help()
+        parser.print_help()    
