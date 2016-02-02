@@ -3,7 +3,7 @@ import pprint
 import re
 
 from unittest import TestCase
-from vinlookup import bsa
+from classic_vin_lookup.vinlookup import bsa
 
 class test_bsa_decode(TestCase):
     """
