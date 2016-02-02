@@ -11,23 +11,28 @@ Examples:
         ZC10-112
     output:
         Major Model: C Range Sub Model: C11 Engine Start:  ZC11-101 Engine # end:  Frame # start: ZC10-101 Frame # end:  Frame Type: Rigid Notes and options:  Gears:  Electric:
-"""
-import re
-
+"""                    
+import re   
+import os
+                                    
 class BsaPart():
     def __init__(self):
         self.class_ = None
         self.year = None
         self.model = None
-        self.part_type = None
-        self.part_description = None 
+        self.type_ = None
+        self.description = None 
         
     def __repr__(self):
         return "<BsaPart:Class="+self.class_+\
-                       ";Year="+self.year+\
+                       ";Year="+str(self.year)+\
                        ";Model="+self.model+\
-                       ";Type="+self.part_type+\
-                       ";Description="+self.part_description+">"
+                       ";Type="+self.type_+\
+                       ";Description="+self.description+">"
+                       
+    def __eq__(self, other): 
+        return self.__dict__ == other.__dict__
+                       
  
 class BsaMatcher():
     """                          
@@ -39,26 +44,23 @@ class BsaMatcher():
         self.regex = None
         self.range_group = None
         self.range_start = None
-        self.range_end = None
+        self.range_end = None               
 
 #Parse parameters file
-param_file = open('bsa_params.csv', encoding='utf-8')
-#Ignore header
-param_file.readline()
+param_file = open(os.path.join(os.path.dirname(__file__),'bsa_params.csv'), encoding='utf-8')
 bsa_matchers = []    
-while True:
-    line = param_file.readline()
-    if not line:
-        break
+for line in param_file:
+    if line.startswith('#'):
+        continue
                                        
     columns = re.split('\t+',line)
     
     bsa_part = BsaPart()
-    bsa_part.class_           = columns[0]
-    bsa_part.year             = columns[1]
-    bsa_part.model            = columns[2]
-    bsa_part.part_type        = columns[3]
-    bsa_part.part_description = columns[4]
+    bsa_part.class_      = columns[0]
+    bsa_part.year        = int(columns[1])
+    bsa_part.model       = columns[2]
+    bsa_part.type_       = columns[3]
+    bsa_part.description = columns[4]
     
     bsa_matcher = BsaMatcher()
     bsa_matcher.bsa_part    = bsa_part
@@ -86,10 +88,12 @@ def decode(vin):
                 if matcher.range_start <= int(vin_num) <= matcher.range_end:
                     match_list.append(matcher.bsa_part)
             except:
-                pass
+                pass   
     return match_list
     
 if __name__ == '__main__':
+    import pdb
+    pdb.set_trace()
     #Prepare command-line execution
     import argparse
     
@@ -101,26 +105,27 @@ if __name__ == '__main__':
     
     if args.run_tests:
         vins = [
-            'UYD-105',
-            'YD-105',
-            'UYD-20105',
-            'UYDL-105',
-            'UYD-20000',
-            'UYD-20001',
-            'YDL-131',
-            'YD1-131',
-            'YD1-21034',
-            'YD1S-21034',
-            'YD1-42034',
-            'YDL1-3560',
-            'YD1S-42304',
-            'YD1-63789',
-            'YDL1-10000',
-            'YD1-65123',
-            'YD1S-67526',
-            'BD2-110',
-            'BD2L-120',
-            'BD2S-130',            
+            'DD-7175',
+            'DDB-4309',
+            'BD2S-62600',
+            'DD-9277',
+            'DDB-9016',
+            'BD2S-66602',
+            'DD-11110',
+            'DDB-12180',
+            'BD2S-68290',
+            'DD-13126',
+            'DDB-12740',
+            'BD2S-71076',
+            'DD-15082',
+            'DDB-15844',
+            'BD2S-74322',
+            'DD-15795',
+            'DDB-17355',
+            'BD2S-77301',
+            'DD-76478',
+            'DDB-52757',
+            'BD2S-87562',
         ]
         for vin in vins:
             print("*** "+vin+" ***")
