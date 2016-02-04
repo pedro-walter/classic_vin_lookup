@@ -1,0 +1,139 @@
+#Part#		Class	Year	Model			Type	Description
+UYD-105		Bantam	1949	D1				Engine	Wipac
+YD-105		Bantam	1949	D1				Engine	Wipac
+UYD-20105	Bantam	1950	D1				Engine	Wipac
+UYDL-105	Bantam	1950	D1				Engine	Lucas
+UYD-20000	Bantam	1949	D1				Engine	Wipac
+UYD-20001	Bantam	1950	D1				Engine	Wipac
+YDL-131		Bantam	1950	D1				Engine	Lucas
+YD1-131		Bantam	1949	D1				Frame	Rigid
+YD1-21034	Bantam	1950	D1				Frame	Rigid
+YD1S-21034	Bantam	1950	D1				Frame	Spring
+YDL1-3560	Bantam	1951	D1				Engine	Lucas
+YD1S-42304	Bantam	1951	D1				Frame	Spring
+YD1-63789	Bantam	1952	D1				Engine	Wipac
+YDL1-10000	Bantam	1952	D1				Engine	Lucas
+YD1-65123	Bantam	1952	D1				Frame	Rigid
+YD1S-67526	Bantam	1952	D1				Frame	Spring
+BD2L-120	Bantam	1953	D1				Engine	Lucas
+BD2S-130	Bantam	1953	D1				Frame	Spring
+YD1-42034	Bantam	1951	D1				Engine	Wipac
+YD1-42034	Bantam	1951	D1				Frame	Rigid
+BD2-110		Bantam	1953	D1				Engine	Wipac
+BD2-110		Bantam	1953	D1				Frame	Rigid
+BD-105		Bantam	1954	D1				Engine	Direct/Competition
+BDB-105		Bantam	1954	D1				Engine	Battery
+BD2-20105	Bantam	1954	D1				Frame	Rigid
+BD2-20105	Bantam	1954	D3				Frame	Rigid
+BD2S-20106	Bantam	1954	D1				Frame	Spring
+BD2S-20106	Bantam	1954	D3				Frame	Spring
+BD3-150		Bantam	1954	D3				Engine	Direct/Competition
+BD3B-113	Bantam	1954	D3				Engine	Battery
+DD-141		Bantam	1955	D1				Engine	Direct/Competition
+DDB-151		Bantam	1955	D1				Engine	Battery
+BD2-40000	Bantam	1955	D1				Frame	Rigid
+BD2-40000	Bantam	1955	D3				Frame	Rigid
+BD2S-40006	Bantam	1955	D1				Frame	Spring
+BD2S-40006	Bantam	1955	D3				Frame	Spring
+BD3-6131	Bantam	1955	D3				Engine	Direct/Competition
+BD3B-6231	Bantam	1955	D3				Engine	Battery
+DD-7175		Bantam	1956	D1				Engine	Direct
+DD-7175		Bantam	1957	D1				Engine	Direct
+DDB-4309	Bantam	1956	D1				Engine	Battery
+DDB-4309	Bantam	1957	D1				Engine	Battery
+BD2S-62600	Bantam	1956	D1				Frame	Plunger
+BD2S-62600	Bantam	1957	D1				Frame	Plunger
+DD-9277		Bantam	1958	D1				Engine	Direct
+DDB-9016	Bantam	1958	D1				Engine	Battery
+BD2S-66602	Bantam	1958	D1				Frame	Plunger
+DD-11110	Bantam	1959	D1				Engine	Direct
+DDB-12180	Bantam	1959	D1				Engine	Battery
+BD2S-68290	Bantam	1959	D1				Frame	Plunger
+DD-13126	Bantam	1960	D1				Engine	Direct
+DDB-12740	Bantam	1960	D1				Engine	Battery
+BD2S-71076	Bantam	1960	D1				Frame	Plunger
+DD-15082	Bantam	1961	D1				Engine	Direct
+DDB-15844	Bantam	1961	D1				Engine	Battery
+BD2S-74322	Bantam	1961	D1				Frame	Plunger
+DD-15795	Bantam	1962	D1				Engine	Direct
+DDB-17355	Bantam	1962	D1				Engine	Battery
+BD2S-77301	Bantam	1962	D1				Frame	Plunger
+DD-76478	Bantam	1963	D1				Engine	Direct
+DDB-52757	Bantam	1963	D1				Engine	Battery
+BD2S-87562	Bantam	1963	D1				Frame	Plunger
+BD3-73658	Bantam	1956	D3				Engine	Direct
+BD3-73658	Bantam	1957	D3				Engine	Direct
+BD3B-29137	Bantam	1956	D3				Engine	Battery
+BD3B-29137	Bantam	1957	D3				Engine	Battery
+CD3-94003	Bantam	1956	D3				Frame	Swing Arm
+CD3-94003	Bantam	1957	D3				Frame	Swing Arm
+ED5-37332	Bantam	1958	D5				Engine	Direct
+ED5B-97227	Bantam	1958	D5				Engine	Battery
+FD5-54348	Bantam	1958	D5				Frame	Swing Arm
+ED7-402		Bantam	1959	D7				Engine	Direct
+ED7B-3583	Bantam	1959	D7				Engine	Battery
+D7-5395		Bantam	1959	D7				Frame	Swing Arm
+ED7-1520	Bantam	1960	D7				Engine	Direct
+ED7B-10448	Bantam	1960	D7				Engine	Battery
+D7-8864		Bantam	1960	D7				Frame	Swing Arm
+ED7-3508	Bantam	1961	D7				Engine	Direct
+ED7B-19905	Bantam	1961	D7				Engine	Battery
+D7-26680	Bantam	1961	D7				Frame	Swing Arm
+ED7-4694	Bantam	1962	D7				Engine	Direct
+ED7B-25257	Bantam	1962	D7				Engine	Battery
+D7-28258	Bantam	1962	D7				Frame	Swing Arm
+ED7-6102	Bantam	1963	D7				Engine	Direct
+ED7B-30150	Bantam	1963	D7				Engine	Battery
+D7-33597	Bantam	1963	D7				Frame	Swing Arm
+ED7BP-30487	Bantam	1963	D7(Police)		Engine	Battery
+D7-33597	Bantam	1963	D7(Police)		Frame	Swing Arm
+ED7A-5602	Bantam	1963	D7A(USA)		Engine	Direct
+ED7BA-30592	Bantam	1963	D7A(USA)		Engine	Battery
+D7-33597	Bantam	1963	D7A(USA)		Frame	Swing Arm
+ED7-6102	Bantam	1963	D7(Trail)		Engine	Direct
+D7-33683T	Bantam	1963	D7(Trail)		Frame	Swing Arm
+ED7-7620	Bantam	1964	D7				Engine	Direct
+FD7-1052	Bantam	1964	D7				Engine	Battery
+D7-39529	Bantam	1964	D7				Frame	Swing Arm
+ED7A-7820	Bantam	1964	D7A(USA)		Engine	Direct
+FD7A-29025	Bantam	1964	D7A(USA)		Engine	Battery
+D7-39529	Bantam	1964	D7A(USA)		Frame	Swing Arm
+ED7A-7820	Bantam	1964	D7(Trail)		Engine	Direct
+D7-39529	Bantam	1964	D7(Trail)		Frame	Swing Arm
+ED7-10264	Bantam	1965	D7				Engine	Direct
+FD7-5591	Bantam	1965	D7				Engine	Battery
+D7-45200	Bantam	1965	D7				Frame	Swing Arm
+FD7-1052	Bantam	1966	D7(de luxe)		Engine	Direct
+FD7-9550	Bantam	1966	D7(de luxe)		Engine	Battery
+D7-50786	Bantam	1966	D7(de luxe)		Frame	Swing Arm
+D7-51470	Bantam	1966	D7(de luxe)		Frame	Swing Arm
+GD7-6057	Bantam	1966	D7(de luxe)		Frame	Swing Arm
+FD7-11529	Bantam	1966	D7 Silver		Engine	Battery
+FD7-1052	Bantam	1966	D7 Silver		Engine	Direct
+GD7-6057	Bantam	1966	D7 Silver		Frame	Swing Arm
+D7-51470	Bantam	1966	D7 Silver		Frame	Swing Arm
+#  
+D10-120		Bantam	1967	D10				Engine		Engine		
+D10-120		Bantam	1967	D10				Frame		Swing Arm	
+D10A-120	Bantam	1967	D10S Sports		Engine		Engine		
+D10A-120	Bantam	1967	D10S Sports		Frame		Swing Arm	
+D10A-120	Bantam	1967	D10B Bushman	Engine		Engine		
+BD10A-120	Bantam	1967	D10B Bushman	Frame		Swing Arm	
+#        
+D13B-220	Bantam	1968	D14/4 Supreme	Engine		Engine		
+D13B-220	Bantam	1968	D14/4 Supreme	Frame		Swing Arm	
+#
+D13B-220	Bantam	1968	D14/4S Sports	Engine		Engine		
+D13B-220S	Bantam	1968	D14/4S Sports	Frame		Swing Arm	
+#
+D13C-330	Bantam	1968	D14/4B Bushman	Engine		Engine		
+D13C-330B	Bantam	1968	D14/4B Bushman	Frame		Swing Arm	
+#
+D14B-821	Bantam	1968	D14/4 Supreme	Engine		Engine		
+D14B-821	Bantam	1968	D14/4 Supreme	Frame		Swing Arm	
+#
+D14B-821	Bantam	1968	D14/4S Sports	Engine		Engine		
+D14B-821S	Bantam	1968	D14/4S Sports	Frame		Swing Arm	
+#
+D14C-970	Bantam	1968	D14/4B Bushman	Engine		Engine		
+D14C-970B	Bantam	1968	D14/4B Bushman	Frame		Swing Arm	
