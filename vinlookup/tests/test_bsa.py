@@ -3,7 +3,10 @@ import pprint
 import re
 
 from unittest import TestCase
-from classic_vin_lookup.vinlookup import bsa
+try:
+    from classic_vin_lookup.vinlookup import bsa
+except ImportError:
+    from vinlookup import bsa
 
 class test_bsa_decode(TestCase):
     """
