@@ -1,149 +1,213 @@
-#================================================================================================================
-#Class	Year	Model			Part Type	Part Description	Regex			Range Group	Range Start	Range End
-#================================================================================================================
-Bantam	1949	D1				Engine		Wipac				^(u?yd)-(\d+)$	1			101			20000
-Bantam	1949	D1				Frame		Rigid				^(yd1)-(\d+)$	1			101			20000
-Bantam	1950	D1				Engine		Wipac				^(u?yd)-(\d+)$	1			20001		99999
-Bantam	1950	D1				Engine		Lucas				^(u?ydl)-(\d+)$	1			101			20000
-Bantam	1950	D1				Frame		Rigid				^(yd1)-(\d+)$	1			20001		40000
-Bantam	1950	D1				Frame		Spring				^(yd1s)-(\d+)$	1			20001		40000
-Bantam	1951	D1				Engine		Wipac				^(yd1)-(\d+)$	1			40001		63000
-Bantam	1951	D1				Engine		Lucas				^(ydl1)-(\d+)$	1			3001		8000
-Bantam	1951	D1				Frame		Rigid				^(yd1)-(\d+)$	1			40001		63000
-Bantam	1951	D1				Frame		Spring				^(yd1s)-(\d+)$	1			40001		63000
-Bantam	1952	D1				Engine		Wipac				^(yd1)-(\d+)$	1			63001		64000
-Bantam	1952	D1				Engine		Lucas				^(ydl1)-(\d+)$	1			8001		99999
-Bantam	1952	D1				Frame		Rigid				^(yd1)-(\d+)$	1			64001		99999
-Bantam	1952	D1				Frame		Spring				^(yd1s)-(\d+)$	1			64001		99999
-Bantam	1953	D1				Engine		Wipac				^(bd2)-(\d+)$	1			101			14599
-Bantam	1953	D1				Engine		Lucas				^(bd2l)-(\d+)$	1			101			14599
-Bantam	1953	D1				Frame		Rigid				^(bd2)-(\d+)$	1			101			14599
-Bantam	1953	D1				Frame		Spring				^(bd2s)-(\d+)$	1			101			14599
-#================================================================================================================
-#Class	Year	Model			Part Type	Part Description	Regex			Range Group	Range Start	Range End
-#================================================================================================================
-Bantam	1954	D1				Engine		Direct/Competition	^(bd)-(\d+)$	1			101			99999
-Bantam	1954	D1				Engine		Battery				^(bdb)-(\d+)$	1			101			99999
-Bantam	1954	D1				Frame		Rigid				^(bd2)-(\d+)$	1			14600		34700
-Bantam	1954	D1				Frame		Spring				^(bd2s)-(\d+)$	1			14600		34700
-Bantam	1954	D3				Engine		Direct/Competition	^(bd3)-(\d+)$	1			101			5137
-Bantam	1954	D3				Engine		Battery				^(bd3b)-(\d+)$	1			101			5137
-Bantam	1954	D3				Frame		Rigid				^(bd2)-(\d+)$	1			14600		34700
-Bantam	1954	D3				Frame		Spring				^(bd2s)-(\d+)$	1			14600		34700
-Bantam	1955	D1				Engine		Direct/Competition	^(dd)-(\d+)$	1			101			4800
-Bantam	1955	D1				Engine		Battery				^(ddb)-(\d+)$	1			101			3300
-Bantam	1955	D1				Frame		Rigid				^(bd2)-(\d+)$	1			34701		99999
-Bantam	1955	D1				Frame		Spring				^(bd2s)-(\d+)$	1			34701		55000
-Bantam	1955	D3				Engine		Direct/Competition	^(bd3)-(\d+)$	1			5138		10400
-Bantam	1955	D3				Engine		Battery				^(bd3b)-(\d+)$	1			5138		12800
-Bantam	1955	D3				Frame		Rigid				^(bd2)-(\d+)$	1			34701		99999
-Bantam	1955	D3				Frame		Spring				^(bd2s)-(\d+)$	1			34701		55000
-#================================================================================================================
-#Class	Year	Model			Part Type	Part Description	Regex			Range Group	Range Start	Range End
-#================================================================================================================
-Bantam	1956	D1				Engine		Direct				^(dd)-(\d+)$	1			4801		8576
-Bantam	1956	D1				Engine		Battery				^(ddb)-(\d+)$	1			3301		7848
-Bantam	1956	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			55001		65000 
-#1957 didn't have any specifications, it's likely in the same range as 1956         
-Bantam	1957	D1				Engine		Direct				^(dd)-(\d+)$	1			4801		8576
-Bantam	1957	D1				Engine		Battery				^(ddb)-(\d+)$	1			3301		7848
-Bantam	1957	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			55001		65000
-Bantam	1958	D1				Engine		Direct				^(dd)-(\d+)$	1			8577		10811
-Bantam	1958	D1				Engine		Battery				^(ddb)-(\d+)$	1			7849		10627
-Bantam	1958	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			65001		67580
-Bantam	1959	D1				Engine		Direct				^(dd)-(\d+)$	1			10812		12500
-Bantam	1959	D1				Engine		Battery				^(ddb)-(\d+)$	1			10628		12500
-Bantam	1959	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			67581		70500
-Bantam	1960	D1				Engine		Direct				^(dd)-(\d+)$	1			12501		14500
-Bantam	1960	D1				Engine		Battery				^(ddb)-(\d+)$	1			12501		14500
-Bantam	1960	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			70501		73700
-Bantam	1961	D1				Engine		Direct				^(dd)-(\d+)$	1			14501		15480
-Bantam	1961	D1				Engine		Battery				^(ddb)-(\d+)$	1			14501		16412
-Bantam	1961	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			73701		76679
-Bantam	1962	D1				Engine		Direct				^(dd)-(\d+)$	1			15481		16128
-Bantam	1962	D1				Engine		Battery				^(ddb)-(\d+)$	1			16413		17605
-Bantam	1962	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			76680		78745
-Bantam	1963	D1				Engine		Direct				^(dd)-(\d+)$	1			16129		99999
-Bantam	1963	D1				Engine		Battery				^(ddb)-(\d+)$	1			17606		99999
-Bantam	1963	D1				Frame		Plunger				^(bd2s)-(\d+)$	1			78746		99999
-#================================================================================================================
-#Class	Year	Model			Part Type	Part Description	Regex			Range Group	Range Start	Range End
-#================================================================================================================
-Bantam	1956	D3				Engine		Direct				^(bd3)-(\d+)$	1			10401		99999
-Bantam	1956	D3				Engine		Battery				^(bd3b)-(\d+)$	1			12801		99999
-Bantam	1956	D3				Frame		Swing Arm			^(cd3)-(\d+)$	1			101			99999
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+Bantam	1949	D1				Engine		Wipac				^(u?yd)-(\d+)$		1			101			20000
+Bantam	1949	D1				Frame		Rigid				^(yd1)-(\d+)$		1			101			20000
+Bantam	1950	D1				Engine		Wipac				^(u?yd)-(\d+)$		1			20001		99999
+Bantam	1950	D1				Engine		Lucas				^(u?ydl)-(\d+)$		1			101			20000
+Bantam	1950	D1				Frame		Rigid				^(yd1)-(\d+)$		1			20001		40000
+Bantam	1950	D1				Frame		Spring				^(yd1s)-(\d+)$		1			20001		40000
+Bantam	1951	D1				Engine		Wipac				^(yd1)-(\d+)$		1			40001		63000
+Bantam	1951	D1				Engine		Lucas				^(ydl1)-(\d+)$		1			3001		8000
+Bantam	1951	D1				Frame		Rigid				^(yd1)-(\d+)$		1			40001		63000
+Bantam	1951	D1				Frame		Spring				^(yd1s)-(\d+)$		1			40001		63000
+Bantam	1952	D1				Engine		Wipac				^(yd1)-(\d+)$		1			63001		64000
+Bantam	1952	D1				Engine		Lucas				^(ydl1)-(\d+)$		1			8001		99999
+Bantam	1952	D1				Frame		Rigid				^(yd1)-(\d+)$		1			64001		99999
+Bantam	1952	D1				Frame		Spring				^(yd1s)-(\d+)$		1			64001		99999
+Bantam	1953	D1				Engine		Wipac				^(bd2)-(\d+)$		1			101			14599
+Bantam	1953	D1				Engine		Lucas				^(bd2l)-(\d+)$		1			101			14599
+Bantam	1953	D1				Frame		Rigid				^(bd2)-(\d+)$		1			101			14599
+Bantam	1953	D1				Frame		Spring				^(bd2s)-(\d+)$		1			101			14599
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+Bantam	1954	D1				Engine		Direct/Competition	^(bd)-(\d+)$		1			101			99999
+Bantam	1954	D1				Engine		Battery				^(bdb)-(\d+)$		1			101			99999
+Bantam	1954	D1				Frame		Rigid				^(bd2)-(\d+)$		1			14600		34700
+Bantam	1954	D1				Frame		Spring				^(bd2s)-(\d+)$		1			14600		34700
+Bantam	1954	D3				Engine		Direct/Competition	^(bd3)-(\d+)$		1			101			5137
+Bantam	1954	D3				Engine		Battery				^(bd3b)-(\d+)$		1			101			5137
+Bantam	1954	D3				Frame		Rigid				^(bd2)-(\d+)$		1			14600		34700
+Bantam	1954	D3				Frame		Spring				^(bd2s)-(\d+)$		1			14600		34700
+Bantam	1955	D1				Engine		Direct/Competition	^(dd)-(\d+)$		1			101			4800
+Bantam	1955	D1				Engine		Battery				^(ddb)-(\d+)$		1			101			3300
+Bantam	1955	D1				Frame		Rigid				^(bd2)-(\d+)$		1			34701		99999
+Bantam	1955	D1				Frame		Spring				^(bd2s)-(\d+)$		1			34701		55000
+Bantam	1955	D3				Engine		Direct/Competition	^(bd3)-(\d+)$		1			5138		10400
+Bantam	1955	D3				Engine		Battery				^(bd3b)-(\d+)$		1			5138		12800
+Bantam	1955	D3				Frame		Rigid				^(bd2)-(\d+)$		1			34701		99999
+Bantam	1955	D3				Frame		Spring				^(bd2s)-(\d+)$		1			34701		55000
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+Bantam	1956	D1				Engine		Direct				^(dd)-(\d+)$		1			4801		8576
+Bantam	1956	D1				Engine		Battery				^(ddb)-(\d+)$		1			3301		7848
+Bantam	1956	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			55001		65000
 #1957 didn't have any specifications, it's likely in the same range as 1956
-Bantam	1957	D3				Engine		Direct				^(bd3)-(\d+)$	1			10401		99999
-Bantam	1957	D3				Engine		Battery				^(bd3b)-(\d+)$	1			12801		99999
-Bantam	1957	D3				Frame		Swing Arm			^(cd3)-(\d+)$	1			101			99999   
-Bantam	1958	D5				Engine		Direct				^(ed5)-(\d+)$	1			101			99999
-Bantam	1958	D5				Engine		Battery				^(ed5b)-(\d+)$	1			101			99999
-Bantam	1958	D5				Frame		Swing Arm			^(fd5)-(\d+)$	1			101			99999
-Bantam	1959	D7				Engine		Direct				^(ed7)-(\d+)$	1			101			1500
-Bantam	1959	D7				Engine		Battery				^(ed7b)-(\d+)$	1			101			7000
-Bantam	1959	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			101			8100
-Bantam	1960	D7				Engine		Direct				^(ed7)-(\d+)$	1			1501		3000
-Bantam	1960	D7				Engine		Battery				^(ed7b)-(\d+)$	1			7001		15500
-Bantam	1960	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			8101		18400
-Bantam	1961	D7				Engine		Direct				^(ed7)-(\d+)$	1			3001 		4500
-Bantam	1961	D7				Engine		Battery				^(ed7b)-(\d+)$	1			15501		23000
-Bantam	1961	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			18401		27449    
-Bantam	1962	D7				Engine		Direct				^(ed7)-(\d+)$	1			4501 		5504
-Bantam	1962	D7				Engine		Battery				^(ed7b)-(\d+)$	1			23001		26903
-Bantam	1962	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			27450		33267
-Bantam	1963	D7				Engine		Direct				^(ed7)-(\d+)$	1			5505 		6686
-Bantam	1963	D7				Engine		Battery				^(ed7b)-(\d+)$	1			26904		99999
-Bantam	1963	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			33268		38399     
-Bantam	1963	D7(Police)		Engine		Battery				^(ed7bp)-(\d+)$	1			26904		99999
-Bantam	1963	D7(Police)		Frame		Swing Arm			^(d7)-(\d+)$	1			33268		38399
-Bantam	1963	D7A(USA)		Engine		Direct				^(ed7a)-(\d+)$	1			5505		6886
-Bantam	1963	D7A(USA)		Engine		Battery				^(ed7ba)-(\d+)$	1			26904		99999
-Bantam	1963	D7A(USA)		Frame		Swing Arm			^(d7)-(\d+)$	1			33268		38399        
-Bantam	1963	D7(Trail)		Engine		Direct				^(ed7)-(\d+)$	1			5505		6886
-Bantam	1963	D7(Trail)		Frame		Swing Arm			^(d7)-(\d+)t$	1			33268		38399    
-Bantam	1964	D7				Engine		Direct				^(ed7)-(\d+)$	1			6687 		9000
-Bantam	1964	D7				Engine		Battery				^(fd7)-(\d+)$	1			101			3000
-Bantam	1964	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			38400		42877         
-Bantam	1964	D7A(USA)		Engine		Direct				^(ed7a)-(\d+)$	1			6887		9000
-Bantam	1964	D7A(USA)		Engine		Battery				^(fd7a)-(\d+)$	1			26904		99999                   
-Bantam	1964	D7A(USA)		Frame		Swing Arm			^(d7)-(\d+)$	1			38400		42877
-Bantam	1964	D7(Trail)		Engine		Direct				^(ed7a)-(\d+)$	1			6887		9000
-Bantam	1964	D7(Trail)		Frame		Swing Arm			^(d7)-(\d+)$	1			38400		42877    
-Bantam	1965	D7				Engine		Direct				^(ed7)-(\d+)$	1			9001 		99999
-Bantam	1965	D7				Engine		Battery				^(fd7)-(\d+)$	1			3001		9075
-Bantam	1965	D7				Frame		Swing Arm			^(d7)-(\d+)$	1			42878		49854
-Bantam	1966	D7(de luxe)		Engine		Direct				^(fd7)-(\d+)$	1			101 		3000
-Bantam	1966	D7(de luxe)		Engine		Battery				^(fd7)-(\d+)$	1			9076		10126
-Bantam	1966	D7(de luxe)		Frame		Swing Arm			^(d7)-(\d+)$	1			49855		51960
-Bantam	1966	D7(de luxe)		Frame		Swing Arm			^(gd7)-(\d+)$	1			101			8616
-Bantam	1966	D7 Silver		Engine		Direct				^(fd7)-(\d+)$	1			101 		3000
-Bantam	1966	D7 Silver		Engine		Battery				^(fd7)-(\d+)$	1			10127		99999
-Bantam	1966	D7 Silver		Frame		Swing Arm			^(d7)-(\d+)$	1			51320		51960
-Bantam	1966	D7 Silver		Frame		Swing Arm			^(gd7)-(\d+)$	1			101			8616
-#================================================================================================================
-#Class	Year	Model			Part Type	Part Description	Regex			Range Group	Range Start	Range End
-#================================================================================================================
-Bantam	1967	D10				Engine		Engine				^(d10)-(\d+)$	1			101			99999
-Bantam	1967	D10				Frame		Swing Arm			^(d10)-(\d+)$	1			101			99999 
-Bantam	1967	D10S Sports		Engine		Engine				^(d10a)-(\d+)$	1			101			99999
-Bantam	1967	D10S Sports		Frame		Swing Arm			^(d10a)-(\d+)$	1			101			99999 
-Bantam	1967	D10B Bushman	Engine		Engine				^(d10a)-(\d+)$	1			101			99999
-Bantam	1967	D10B Bushman	Frame		Swing Arm			^(bd10a)-(\d+)$	1			101			99999 
-#        
-Bantam	1968	D14/4 Supreme	Engine		Engine				^(d13b)-(\d+)$	1			101			780
-Bantam	1968	D14/4 Supreme	Frame		Swing Arm			^(d13b)-(\d+)$	1			101			99999
-#
-Bantam	1968	D14/4S Sports	Engine		Engine				^(d13b)-(\d+)$	1			101			780
-Bantam	1968	D14/4S Sports	Frame		Swing Arm			^(d13b)-(\d+)s$	1			101			99999
-#
-Bantam	1968	D14/4B Bushman	Engine		Engine				^(d13c)-(\d+)$	1			101			780
-Bantam	1968	D14/4B Bushman	Frame		Swing Arm			^(d13c)-(\d+)b$	1			101			99999
-#
-Bantam	1968	D14/4 Supreme	Engine		Engine				^(d14b)-(\d+)$	1			781			99999
-Bantam	1968	D14/4 Supreme	Frame		Swing Arm			^(d14b)-(\d+)$	1			781			99999
-#
-Bantam	1968	D14/4S Sports	Engine		Engine				^(d14b)-(\d+)$	1			781			99999
-Bantam	1968	D14/4S Sports	Frame		Swing Arm			^(d14b)-(\d+)s$	1			781			99999
-#
-Bantam	1968	D14/4B Bushman	Engine		Engine				^(d14c)-(\d+)$	1			781			99999
-Bantam	1968	D14/4B Bushman	Frame		Swing Arm			^(d14c)-(\d+)b$	1			781			99999
+Bantam	1957	D1				Engine		Direct				^(dd)-(\d+)$		1			4801		8576
+Bantam	1957	D1				Engine		Battery				^(ddb)-(\d+)$		1			3301		7848
+Bantam	1957	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			55001		65000
+Bantam	1958	D1				Engine		Direct				^(dd)-(\d+)$		1			8577		10811
+Bantam	1958	D1				Engine		Battery				^(ddb)-(\d+)$		1			7849		10627
+Bantam	1958	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			65001		67580
+Bantam	1959	D1				Engine		Direct				^(dd)-(\d+)$		1			10812		12500
+Bantam	1959	D1				Engine		Battery				^(ddb)-(\d+)$		1			10628		12500
+Bantam	1959	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			67581		70500
+Bantam	1960	D1				Engine		Direct				^(dd)-(\d+)$		1			12501		14500
+Bantam	1960	D1				Engine		Battery				^(ddb)-(\d+)$		1			12501		14500
+Bantam	1960	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			70501		73700
+Bantam	1961	D1				Engine		Direct				^(dd)-(\d+)$		1			14501		15480
+Bantam	1961	D1				Engine		Battery				^(ddb)-(\d+)$		1			14501		16412
+Bantam	1961	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			73701		76679
+Bantam	1962	D1				Engine		Direct				^(dd)-(\d+)$		1			15481		16128
+Bantam	1962	D1				Engine		Battery				^(ddb)-(\d+)$		1			16413		17605
+Bantam	1962	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			76680		78745
+Bantam	1963	D1				Engine		Direct				^(dd)-(\d+)$		1			16129		99999
+Bantam	1963	D1				Engine		Battery				^(ddb)-(\d+)$		1			17606		99999
+Bantam	1963	D1				Frame		Plunger				^(bd2s)-(\d+)$		1			78746		99999
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+Bantam	1956	D3				Engine		Direct				^(bd3)-(\d+)$		1			10401		99999
+Bantam	1956	D3				Engine		Battery				^(bd3b)-(\d+)$		1			12801		99999
+Bantam	1956	D3				Frame		Swing Arm			^(cd3)-(\d+)$		1			101			99999
+#1957 didn't have any specifications, it's likely in the same range as 1956
+Bantam	1957	D3				Engine		Direct				^(bd3)-(\d+)$		1			10401		99999
+Bantam	1957	D3				Engine		Battery				^(bd3b)-(\d+)$		1			12801		99999
+Bantam	1957	D3				Frame		Swing Arm			^(cd3)-(\d+)$		1			101			99999
+Bantam	1958	D5				Engine		Direct				^(ed5)-(\d+)$		1			101			99999
+Bantam	1958	D5				Engine		Battery				^(ed5b)-(\d+)$		1			101			99999
+Bantam	1958	D5				Frame		Swing Arm			^(fd5)-(\d+)$		1			101			99999
+Bantam	1959	D7				Engine		Direct				^(ed7)-(\d+)$		1			101			1500
+Bantam	1959	D7				Engine		Battery				^(ed7b)-(\d+)$		1			101			7000
+Bantam	1959	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			101			8100
+Bantam	1960	D7				Engine		Direct				^(ed7)-(\d+)$		1			1501		3000
+Bantam	1960	D7				Engine		Battery				^(ed7b)-(\d+)$		1			7001		15500
+Bantam	1960	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			8101		18400
+Bantam	1961	D7				Engine		Direct				^(ed7)-(\d+)$		1			3001 		4500
+Bantam	1961	D7				Engine		Battery				^(ed7b)-(\d+)$		1			15501		23000
+Bantam	1961	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			18401		27449
+Bantam	1962	D7				Engine		Direct				^(ed7)-(\d+)$		1			4501 		5504
+Bantam	1962	D7				Engine		Battery				^(ed7b)-(\d+)$		1			23001		26903
+Bantam	1962	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			27450		33267
+Bantam	1963	D7				Engine		Direct				^(ed7)-(\d+)$		1			5505 		6686
+Bantam	1963	D7				Engine		Battery				^(ed7b)-(\d+)$		1			26904		99999
+Bantam	1963	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			33268		38399
+Bantam	1963	D7(Police)		Engine		Battery				^(ed7bp)-(\d+)$		1			26904		99999
+Bantam	1963	D7(Police)		Frame		Swing Arm			^(d7)-(\d+)$		1			33268		38399
+Bantam	1963	D7A(USA)		Engine		Direct				^(ed7a)-(\d+)$		1			5505		6886
+Bantam	1963	D7A(USA)		Engine		Battery				^(ed7ba)-(\d+)$		1			26904		99999
+Bantam	1963	D7A(USA)		Frame		Swing Arm			^(d7)-(\d+)$		1			33268		38399
+Bantam	1963	D7(Trail)		Engine		Direct				^(ed7)-(\d+)$		1			5505		6886
+Bantam	1963	D7(Trail)		Frame		Swing Arm			^(d7)-(\d+)t$		1			33268		38399
+Bantam	1964	D7				Engine		Direct				^(ed7)-(\d+)$		1			6687 		9000
+Bantam	1964	D7				Engine		Battery				^(fd7)-(\d+)$		1			101			3000
+Bantam	1964	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			38400		42877
+Bantam	1964	D7A(USA)		Engine		Direct				^(ed7a)-(\d+)$		1			6887		9000
+Bantam	1964	D7A(USA)		Engine		Battery				^(fd7a)-(\d+)$		1			26904		99999
+Bantam	1964	D7A(USA)		Frame		Swing Arm			^(d7)-(\d+)$		1			38400		42877
+Bantam	1964	D7(Trail)		Engine		Direct				^(ed7a)-(\d+)$		1			6887		9000
+Bantam	1964	D7(Trail)		Frame		Swing Arm			^(d7)-(\d+)$		1			38400		42877
+Bantam	1965	D7				Engine		Direct				^(ed7)-(\d+)$		1			9001 		99999
+Bantam	1965	D7				Engine		Battery				^(fd7)-(\d+)$		1			3001		9075
+Bantam	1965	D7				Frame		Swing Arm			^(d7)-(\d+)$		1			42878		49854
+Bantam	1966	D7(de luxe)		Engine		Direct				^(fd7)-(\d+)$		1			101 		3000
+Bantam	1966	D7(de luxe)		Engine		Battery				^(fd7)-(\d+)$		1			9076		10126
+Bantam	1966	D7(de luxe)		Frame		Swing Arm			^(d7)-(\d+)$		1			49855		51960
+Bantam	1966	D7(de luxe)		Frame		Swing Arm			^(gd7)-(\d+)$		1			101			8616
+Bantam	1966	D7 Silver		Engine		Direct				^(fd7)-(\d+)$		1			101 		3000
+Bantam	1966	D7 Silver		Engine		Battery				^(fd7)-(\d+)$		1			10127		99999
+Bantam	1966	D7 Silver		Frame		Swing Arm			^(d7)-(\d+)$		1			51320		51960
+Bantam	1966	D7 Silver		Frame		Swing Arm			^(gd7)-(\d+)$		1			101			8616
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+Bantam	1967	D10				Engine		Engine				^(d10)-(\d+)$		1			101			99999
+Bantam	1967	D10				Frame		Swing Arm			^(d10)-(\d+)$		1			101			99999
+Bantam	1967	D10S Sports		Engine		Engine				^(d10a)-(\d+)$		1			101			99999
+Bantam	1967	D10S Sports		Frame		Swing Arm			^(d10a)-(\d+)$		1			101			99999
+Bantam	1967	D10B Bushman	Engine		Engine				^(d10a)-(\d+)$		1			101			99999
+Bantam	1967	D10B Bushman	Frame		Swing Arm			^(bd10a)-(\d+)$		1			101			99999
+Bantam	1968	D14/4 Supreme	Engine		Engine				^(d13b)-(\d+)$		1			101			780
+Bantam	1968	D14/4 Supreme	Frame		Swing Arm			^(d13b)-(\d+)$		1			101			99999
+Bantam	1968	D14/4S Sports	Engine		Engine				^(d13b)-(\d+)$		1			101			780
+Bantam	1968	D14/4S Sports	Frame		Swing Arm			^(d13b)-(\d+)s$		1			101			99999
+Bantam	1968	D14/4B Bushman	Engine		Engine				^(d13c)-(\d+)$		1			101			780
+Bantam	1968	D14/4B Bushman	Frame		Swing Arm			^(d13c)-(\d+)b$		1			101			99999
+Bantam	1968	D14/4 Supreme	Engine		Engine				^(d14b)-(\d+)$		1			781			99999
+Bantam	1968	D14/4 Supreme	Frame		Swing Arm			^(d14b)-(\d+)$		1			781			99999
+Bantam	1968	D14/4S Sports	Engine		Engine				^(d14b)-(\d+)$		1			781			99999
+Bantam	1968	D14/4S Sports	Frame		Swing Arm			^(d14b)-(\d+)s$		1			781			99999
+Bantam	1968	D14/4B Bushman	Engine		Engine				^(d14c)-(\d+)$		1			781			99999
+Bantam	1968	D14/4B Bushman	Frame		Swing Arm			^(d14c)-(\d+)b$		1			781			99999
+#====================================================================================================================
+#Class	Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#====================================================================================================================
+C Range	1946	C10				Engine		Engine				^(xc10)-(\d+)$		1			101			99999
+C Range	1946	C11				Engine		Engine				^(xc11)-(\d+)$		1			101			99999
+C Range	1946	C10				Frame		Rigid				^(xc10g)-(\d+)$		1			101			99999
+C Range	1946	C10				Frame		Rigid				^(xc10t)-(\d+)$		1			101			99999
+C Range	1946	C11				Frame		Rigid				^(xc10g)-(\d+)$		1			101			99999
+C Range	1946	C11				Frame		Rigid				^(xc10t)-(\d+)$		1			101			99999
+C Range	1947	C10				Engine		Engine				^(xc10)-(\d+)$		1			101			99999
+C Range	1947	C11				Engine		Engine				^(xc11)-(\d+)$		1			101			99999
+C Range	1947	C10				Frame		Rigid				^(xc10g)-(\d+)$		1			101			99999
+C Range	1947	C10				Frame		Rigid				^(xc10t)-(\d+)$		1			101			99999
+C Range	1947	C11				Frame		Rigid				^(xc10g)-(\d+)$		1			101			99999
+C Range	1947	C11				Frame		Rigid				^(xc10t)-(\d+)$		1			101			99999
+C Range	1948	C10				Engine		Engine				^(yc10)-(\d+)$		1			101			99999
+C Range	1948	C11				Engine		Engine				^(yc11)-(\d+)$		1			101			99999
+C Range	1948	C10				Frame		Rigid				^(yc10)-(\d+)$		1			101			99999
+C Range	1948	C11				Frame		Rigid				^(yc10)-(\d+)$		1			101			99999
+C Range	1949	C10				Engine		Engine				^(zc10)-(\d+)$		1			101			4000
+C Range	1949	C11				Engine		Engine				^(zc11)-(\d+)$		1			101			8000
+C Range	1949	C10				Frame		Rigid				^(zc10)-(\d+)$		1			101			4000
+C Range	1949	C11				Frame		Rigid				^(zc10)-(\d+)$		1			101			4000
+C Range	1950	C10				Engine		Engine				^(zc10)-(\d+)$		1			4001		7000
+C Range	1950	C11				Engine		Engine				^(zc11)-(\d+)$		1			8001		10000
+C Range	1950	C10				Frame		Rigid				^(zc10)-(\d+)$		1			10001		21000
+C Range	1950	C11				Frame		Rigid				^(zc10)-(\d+)$		1			10001		21000
+C Range	1951	C10				Engine		Engine				^(zc10)-(\d+)$		1			7001		10000
+C Range	1951	C11				Engine		Engine				^(zc11)-(\d+)$		1			16001		25000
+C Range	1951	C10				Frame		Rigid				^(zc10)-(\d+)$		1			21001		29000
+C Range	1951	C11				Frame		Rigid				^(zc10)-(\d+)$		1			21001		29000
+C Range	1951	C10				Frame		Spring				^(zc10s)-(\d+)$		1			101			2600
+C Range	1951	C11				Frame		Spring				^(zc10s4)-(\d+)$	1			101			2000
+C Range	1952	C10				Engine		Engine				^(zc10)-(\d+)$		1			10001		21000
+C Range	1952	C11				Engine		Engine				^(zc11)-(\d+)$		1			16001		25000
+C Range	1952	C10				Frame		Rigid				^(zc10)-(\d+)$		1			21001		29000
+C Range	1952	C11				Frame		Rigid				^(zc10)-(\d+)$		1			21001		29000
+C Range	1952	C10				Frame		Spring				^(zc10s)-(\d+)$		1			2601		99999
+C Range	1952	C11				Frame		Spring				^(zc10s4)-(\d+)$	1			2001		99999
+C Range	1953	C10				Engine		Engine				^(bc10)-(\d+)$		1			101			99999
+C Range	1953	C11				Engine		Engine				^(bc11)-(\d+)$		1			101			800
+C Range	1953	C10				Frame		Rigid				^(bc10)-(\d+)$		1			101			99999
+C Range	1953	C11				Frame		Rigid				^(bc10)-(\d+)$		1			101			99999
+C Range	1953	C10				Frame		Spring				^(bc10s)-(\d+)$		1			101			99999
+C Range	1953	C11				Frame		Spring				^(bc10s4)-(\d+)$	1			101			99999
+C Range	1954	C10L			Engine		Engine				^(bc10l)-(\d+)$		1			101			4000
+C Range	1954	C10L			Frame		Spring				^(bc10ls)-(\d+)$	1			101			4500
+C Range	1954	C11G			Engine		Engine				^(bc11g)-(\d+)$		1			101			11500
+C Range	1954	C11G			Frame		Rigid				^(bc11)-(\d+)$		1			101			800
+C Range	1954	C11G			Frame		Spring				^(bc11s)-(\d+)$		1			101			4000
+C Range	1954	C11G			Frame		Rigid				^(bc11r4)-(\d+)$	1			101			500
+C Range	1954	C11G			Frame		Spring				^(bc11s4)-(\d+)$	1			101			8000
+C Range	1955	C10L			Engine		Engine				^(bc10l)-(\d+)$		1			4001		7000
+C Range	1955	C10L			Frame		Spring				^(bc10ls)-(\d+)$	1			4501		99999
+C Range	1955	C11G			Engine		Engine				^(bc11g)-(\d+)$		1			11501		23000
+C Range	1955	C11G			Frame		Rigid				^(bc11)-(\d+)$		1			801			99999
+C Range	1955	C11G			Frame		Spring				^(bc11s)-(\d+)$		1			4001		99999
+C Range	1955	C11G			Frame		Rigid				^(bc11r4)-(\d+)$	1			501			99999
+C Range	1955	C11G			Frame		Spring				^(bc11s4)-(\d+)$	1			8001		18000
+C Range	1956	C10L			Engine		Engine				^(bc10l)-(\d+)$		1			7001		99999
+C Range	1956	C10L			Frame		Spring				^(dc10s)-(\d+)$		1			101			99999
+C Range	1956	C12				Engine		Engine				^(bc11g)-(\d+)$		1			23001		40000
+C Range	1956	C12				Frame		Spring				^(ec12)-(\d+)$		1			101			16000
+C Range	1956	C12				Frame		Spring				^(bc11s4)-(\d+)$	1			18001		99999
+C Range	1957	C10L			Engine		Engine				^(bc10l)-(\d+)$		1			1			100
+C Range	1957	C10L			Frame		Spring				^(dc10s)-(\d+)$		1			1			100
+C Range	1957	C12				Engine		Engine				^(bc11g)-(\d+)$		1			1			100
+C Range	1957	C12				Frame		Spring				^(ec12)-(\d+)$		1			1			100
+C Range	1958	C12				Engine		Engine				^(bc11g)-(\d+)$		1			40001		99999
+C Range	1958	C12				Frame		Spring				^(ec12)-(\d+)$		1			16001		99999
