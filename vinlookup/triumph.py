@@ -121,13 +121,14 @@ def decode(vin):
                 pass
 #         match_list.append('Match Error')
     return match_list
-
-###############################################
-# Quick test
-definitions = [decode]
-#vins = ['DU5826', 'DU5824']
-vins = ['HK12345', 'h29733', 'du35987', '194878', 'DU5826', 'h40528', '5928']
-for v in vins:
-    print('**** ' + v + ' ****')
-    for d in definitions:
-        print(d(v))
+    
+if __name__ == '__main__':
+    ###############################################
+    # Quick test
+    definitions = [decode]
+    #vins = ['DU5826', 'DU5824']
+    vins = ['HK12345', 'h29733', 'du35987', '194878', 'DU5826', 'h40528', '5928']
+    for v in vins:
+        print('**** ' + v + ' ****')
+        for d in definitions:
+            print(d(v))
