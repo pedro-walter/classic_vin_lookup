@@ -30,6 +30,15 @@ class BsaPart():
                        ";Type="+self.type_+\
                        ";Description="+self.description+">"
                        
+    def __str__(self):
+        return "{0}#, {1} {2} {3} {4}".format(
+            self.type_,
+            self.class_,
+            self.model,
+            self.description,
+            self.year
+        )
+                       
     def __eq__(self, other): 
         return self.__dict__ == other.__dict__
                        
