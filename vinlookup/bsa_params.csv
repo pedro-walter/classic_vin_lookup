@@ -412,6 +412,10 @@ B Range	1955	B32				Frame		Spring				^(cb32)-(\d+)$		1			1501		4000
 B Range	1955	B34				Frame		Spring				^(cb32)-(\d+)$		1			1501		4000
 B Range	1955	B32				Frame		Spring				^(cb32)-(\d+)$		1			4001		7000
 B Range	1955	B34				Frame		Spring				^(cb32)-(\d+)$		1			4001		7000
+<<<<<<< HEAD
+=======
+#
+>>>>>>> 86669d5ddd67260dc307404b29f068cf71a4e055
 B Range	1956	B32				Engine		Engine				^(db32gs)-(\d+)$	1			501			1500
 B Range	1956	B34				Engine		Engine				^(db34gs)-(\d+)$	1			501			3752
 B Range	1956	B34 DBD			Engine		Engine				^(dbd34gs)-(\d+)$	1			2001		2962
@@ -424,6 +428,9 @@ B Range	1957	B34				Engine		Engine				^(db34gs)-(\d+)$	1			1			100
 B Range	1957	B34 DBD			Engine		Engine				^(dbd34gs)-(\d+)$	1			2963		3000
 B Range	1957	B32				Frame		Spring				^(cb32)-(\d+)$		1			1			100
 B Range	1957	B34				Frame		Spring				^(cb32)-(\d+)$		1			1			100
+B Range	1958	B34 DBD			Engine		Engine				^(dbd34gs)-(\d+)$	1			3001		3752
+B Range	1958	B32				Frame		Spring				^(cb32)-(\d+)$		1			7001		7872
+B Range	1958	B34				Frame		Spring				^(cb32)-(\d+)$		1			7001		7872
 B Range	1958	B34 DBD			Engine		Engine				^(dbd34gs)-(\d+)$	1			3001		3752
 B Range	1958	B32				Frame		Spring				^(cb32)-(\d+)$		1			7001		7872
 B Range	1958	B34				Frame		Spring				^(cb32)-(\d+)$		1			7001		7872
@@ -451,6 +458,9 @@ B Range	1962	B32				Frame		Rigid				^(cb32)-(\d+)$		1			11001		11450
 B Range	1962	B34				Frame		Rigid				^(cb32)-(\d+)$		1			11001		11450
 B Range	1962	B32				Frame		Spring				^(cb32c)-(\d+)$		1			741			856
 B Range	1962	B34				Frame		Spring				^(cb32c)-(\d+)$		1			741			856
+B Range	1963	B34				Engine		Engine				^(db34gs)-(\d+)$	1			6881		99999
+B Range	1963	B34				Frame		Rigid				^(cb32)-(\d+)$		1			11451		99999
+B Range	1963	B34				Frame		Spring				^(cb32c)-(\d+)$		1			857			99999
 B Range	1963	B34				Engine		Engine				^(db34gs)-(\d+)$	1			6881		99999
 B Range	1963	B34				Frame		Rigid				^(cb32)-(\d+)$		1			11451		99999
 B Range	1963	B34				Frame		Spring				^(cb32c)-(\d+)$		1			857			99999
