@@ -3,7 +3,10 @@ import pprint
 import re
 
 from unittest import TestCase
-from classic_vin_lookup.vinlookup import bsa
+try:
+    from classic_vin_lookup.vinlookup import bsa
+except ImportError:
+    from vinlookup import bsa
 
 class test_bsa_decode(TestCase):
     """
@@ -18,28 +21,28 @@ class test_bsa_decode(TestCase):
                 if line.startswith('#'):
                     continue
                 columns = re.split('\t+',line.strip())
-                
-                vin = columns[0] 
-                
+
+                vin = columns[0]
+
                 part = bsa.BsaPart()
                 part.class_ =      columns[1]
                 part.year =    int(columns[2])
                 part.model =       columns[3]
-                part.type_ =       columns[4]                                                                                         
-                part.description = columns[5]   
-                
+                part.type_ =       columns[4]
+                part.description = columns[5]
+
                 if not vin in vins:
                     vins[vin] = [part]
                 else:
                     vins[vin].append(part)
-            
-            for vin in vins:        
-                results = bsa.decode(vin)  
-                
-                if len(results) != len(vins[vin]):  
+
+            for vin in vins:
+                results = bsa.decode(vin)
+
+                if len(results) != len(vins[vin]):
                     print("vin="+vin)
-                    print("expected="+pprint.pformat(vins[vin]))
-                    print("results="+pprint.pformat(results))                 
+                    print("expected=\n"+pprint.pformat(vins[vin]))
+                    print("results=\n"+pprint.pformat(results))
                     raise Exception(
                         "Number of resultss different than expected. "+\
                         "Expected: {0};Results: {1}".format(
@@ -48,22 +51,28 @@ class test_bsa_decode(TestCase):
                     result_found = False
                     for result in results:
                         try:
-                            self.assertEqual(expected_result, result)     
-                            result_found = True           
+                            self.assertEqual(expected_result, result)
+                            result_found = True
                             results.remove(result)
                             break
                         except Exception as e:
                             pass
                         #endtry
                     #endfor
-                    if result_found == False:    
+                    if result_found == False:
                         print("vin="+vin)
-                        print("expected="+pprint.pformat(expected_result))
-                        print("results="+pprint.pformat(results))              
-                        raise Exception("Expected result not found.")  
-                    
+                        print("expected=\n"+pprint.pformat(expected_result))
+                        print("results=\n"+pprint.pformat(results))
+                        raise Exception("Expected result not found.")
+
     def test_bantam(self):
-        self._run_tests('bantam_params.csv')                                 
+        self._run_tests('bantam_params.csv')
 
     def test_crange(self):
-        self._run_tests('c_class_params.csv')    
+        self._run_tests('c_class_params.csv')
+
+    def test_brange(self):
+        self._run_tests('b_range_params.csv')
+
+    def test_brange(self):
+        self._run_tests('m_range_params.csv')
