@@ -14,7 +14,7 @@ install:
 
 
 script: 
-    - coverage  run  --omit 'classic_vin_lookup/tests/*.*' -m py.test
+    - coverage  run  --omit 'vinlookup/tests/*.*' -m py.test
 
 notifications:
   email: false
