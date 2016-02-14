@@ -4,3 +4,7 @@
 temp/
 
 /vinlookup/notes/~$BSA_VINS.xlsx
+htmlcov
+__pycache__
+.cache
+.coverage
