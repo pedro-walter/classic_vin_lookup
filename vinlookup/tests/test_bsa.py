@@ -73,6 +73,6 @@ class test_bsa_decode(TestCase):
 
     def test_brange(self):
         self._run_tests('b_range_params.csv')
-		
+
     def test_brange(self):
         self._run_tests('m_range_params.csv')
