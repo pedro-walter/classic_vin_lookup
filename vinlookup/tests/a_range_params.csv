@@ -1,0 +1,262 @@
+#Part#			Class		Year	Model			Type	Description
+XA7-101			A Range		1947	A7						Frame		Rigid
+XA7-101			A Range		1947	A7						Engine		Engine
+YA7-101			A Range		1948	A7						Engine		Engine
+YA7-101			A Range		1948	A7						Frame		Rigid
+ZA7-101			A Range		1949	A7						Engine		Engine
+ZA7-4001		A Range		1949	A7						Engine		Engine
+ZA7S-101		A Range		1949	A7ST					Engine		Engine
+ZA7-101			A Range		1949	A7						Frame		Rigid
+ZA7-101			A Range		1949	A7ST					Frame		Rigid
+ZA7S-101		A Range		1949	A7						Frame		Plunger
+ZA7S-101		A Range		1949	A7ST					Frame		Plunger
+ZA7S-4001		A Range		1949	A7						Frame		Plunger
+ZA7S-4001		A Range		1949	A7ST					Frame		Plunger
+ZA7-7001		A Range		1950	A7						Engine		Engine
+ZA7S-4001		A Range		1950	A7ST					Engine		Engine
+ZA10-101		A Range		1950	A10						Engine		Engine
+ZA7-4001		A Range		1950	A7						Frame		Rigid
+ZA7-4001		A Range		1950	A7ST					Frame		Rigid
+ZA7-4001		A Range		1950	A10						Frame		Rigid
+ZA7S-6001		A Range		1950	A7						Frame		Plunger
+ZA7S-6001		A Range		1950	A7ST					Frame		Plunger
+ZA7S-6001		A Range		1950	A10						Frame		Plunger
+AA7-101			A Range		1951	A7						Engine		Engine
+AA7S-101		A Range		1951	A7ST					Engine		Engine
+ZA10-4001		A Range		1951	A10						Engine		Engine
+ZA7-8001		A Range		1951	A7						Frame		Rigid
+ZA7-8001		A Range		1951	A7ST					Frame		Rigid
+ZA7-8001		A Range		1951	A10						Frame		Rigid
+ZA7S-14001		A Range		1951	A7						Frame		Plunger
+ZA7S-14001		A Range		1951	A7ST					Frame		Plunger
+ZA7S-14001		A Range		1951	A10						Frame		Plunger
+AA7-5001		A Range		1952	A7						Engine		Engine
+AA7S-1001		A Range		1952	A7ST					Engine		Engine
+ZA10-12001		A Range		1952	A10						Engine		Engine
+ZA7-8001		A Range		1952	A7						Frame		Rigid
+ZA7-8001		A Range		1952	A7ST					Frame		Rigid
+ZA7-8001		A Range		1952	A10						Frame		Rigid
+ZA7S-26001		A Range		1952	A7						Frame		Plunger
+ZA7S-26001		A Range		1952	A7ST					Frame		Plunger
+ZA7S-26001		A Range		1952	A10						Frame		Plunger
+BA7-101			A Range		1953	A7						Engine		Engine
+BA7S-101		A Range		1953	A7ST					Engine		Engine
+BA10-101		A Range		1953	A10						Engine		Engine
+BA7-101			A Range		1953	A7						Frame		Rigid
+BA7-101			A Range		1953	A7ST					Frame		Rigid
+BA7-101			A Range		1953	A10						Frame		Rigid
+BA7S-101		A Range		1953	A7						Frame		Plunger
+BA7S-101		A Range		1953	A7ST					Frame		Plunger
+BA7S-101		A Range		1953	A10						Frame		Plunger
+BA7-2001		A Range		1954	A7						Engine		Engine
+BA7S-2001		A Range		1954	A7ST					Engine		Engine
+BA10-7001		A Range		1954	A10						Engine		Engine
+BA7S-8950		A Range		1954	A7						Frame		Plunger
+BA7S-8950		A Range		1954	A7ST					Frame		Plunger
+BA7S-8950		A Range		1954	A10						Frame		Plunger
+BA10-11001		A Range		1955	A10						Engine		Engine
+BA7S-15001		A Range		1955	A10						Frame		Plunger
+BA10-14001		A Range		1956	A10						Engine		Engine
+BA7S-18001		A Range		1956	A10						Frame		Plunger
+BA10-16036		A Range		1957	A10						Engine		Engine
+BA7S-20289		A Range		1957	A10						Frame		Plunger
+CA7-101			A Range		1954	A7						Engine		Engine
+CA7SS-101		A Range		1954	A7SS					Engine		Engine
+CA10-101		A Range		1954	A10						Engine		Engine
+CA10R-101		A Range		1954	A10RR					Engine		Engine
+CA7-101			A Range		1954	A7						Frame		Swing arm
+CA7-101			A Range		1954	A7SS					Frame		Swing arm
+CA7-101			A Range		1954	A10						Frame		Swing arm
+CA7-101			A Range		1954	A10RR					Frame		Swing arm
+CA7-1501		A Range		1954	A7						Frame		Swing arm
+CA7-1501		A Range		1954	A7SS					Frame		Swing arm
+CA7-1501		A Range		1954	A10						Frame		Swing arm
+CA7-1501		A Range		1954	A10RR					Frame		Swing arm
+CA7-2701		A Range		1954	A7						Frame		Swing arm
+CA7-2701		A Range		1954	A7SS					Frame		Swing arm
+CA7-2701		A Range		1954	A10						Frame		Swing arm
+CA7-2701		A Range		1954	A10RR					Frame		Swing arm
+CA7-5001		A Range		1954	A7						Frame		Swing arm
+CA7-5001		A Range		1954	A7SS					Frame		Swing arm
+CA7-5001		A Range		1954	A10						Frame		Swing arm
+CA7-5001		A Range		1954	A10RR					Frame		Swing arm
+CA7-5867		A Range		1954	A7						Frame		Swing arm
+CA7-5867		A Range		1954	A7SS					Frame		Swing arm
+CA7-5867		A Range		1954	A10						Frame		Swing arm
+CA7-5867		A Range		1954	A10RR					Frame		Swing arm
+CA7-1501		A Range		1955	A7						Engine		Engine
+CA7SS-501		A Range		1955	A7SS					Engine		Engine
+CA10-4501		A Range		1955	A10						Engine		Engine
+CA10R-601		A Range		1955	A10RR					Engine		Engine
+CA7-7001		A Range		1955	A7						Frame		Swing arm
+CA7-7001		A Range		1955	A7SS					Frame		Swing arm
+CA7-7001		A Range		1955	A10						Frame		Swing arm
+CA7-7001		A Range		1955	A10RR					Frame		Swing arm
+CA7-2701		A Range		1956	A7						Engine		Engine
+CA7SS-2301		A Range		1956	A7SS					Engine		Engine
+CA10-8001		A Range		1956	A10						Engine		Engine
+CA10R-2001		A Range		1956	A10RR					Engine		Engine
+EA7-101			A Range		1956	A7						Frame		Swing arm
+EA7-101			A Range		1956	A7SS					Frame		Swing arm
+EA7-101			A Range		1956	A10						Frame		Swing arm
+EA7-101			A Range		1956	A10RR					Frame		Swing arm
+CA7-1			A Range		1957	A7						Engine		Engine
+CA7SS-1			A Range		1957	A7SS					Engine		Engine
+CA10-1			A Range		1957	A10						Engine		Engine
+CA10R-1			A Range		1957	A10RR					Engine		Engine
+CA7-1			A Range		1957	A7						Frame		Swing arm
+CA7-1			A Range		1957	A7SS					Frame		Swing arm
+CA7-1			A Range		1957	A10						Frame		Swing arm
+CA7-1			A Range		1957	A10RR					Frame		Swing arm
+CA7-5001		A Range		1958	A7						Engine		Engine
+CA7SS-4501		A Range		1958	A7SS					Engine		Engine
+DA10-651		A Range		1958	A10						Engine		Engine
+CA10R-6001		A Range		1958	A10RR					Engine		Engine
+FA7-101			A Range		1958	A7						Frame		Swing arm
+FA7-101			A Range		1958	A7SS					Frame		Swing arm
+FA7-101			A Range		1958	A10						Frame		Swing arm
+FA7-101			A Range		1958	A10RR					Frame		Swing arm
+CA7-5867		A Range		1959	A7						Engine		Engine
+CA7-7001		A Range		1959	A7						Engine		Engine
+CA7SS-5425		A Range		1959	A7SS					Engine		Engine
+DA10-4616		A Range		1959	A10						Engine		Engine
+CA10R-8193		A Range		1959	A10RR					Engine		Engine
+FA7-8522		A Range		1959	A7						Frame		Swing arm
+FA7-8522		A Range		1959	A7SS					Frame		Swing arm
+FA7-8522		A Range		1959	A10						Frame		Swing arm
+FA7-8522		A Range		1959	A10RR					Frame		Swing arm
+CA7-7101		A Range		1960	A7						Engine		Engine
+CA7SS-6701		A Range		1960	A7SS					Engine		Engine
+DA10-7801		A Range		1960	A10						Engine		Engine
+DA10R-101		A Range		1960	A10RR					Engine		Engine
+GA7-101			A Range		1960	A7						Frame		Swing arm
+GA7-101			A Range		1960	A7SS					Frame		Swing arm
+GA7-101			A Range		1960	A10						Frame		Swing arm
+GA7-101			A Range		1960	A10RR					Frame		Swing arm
+CA7-8501		A Range		1961	A7						Engine		Engine
+CA7SS-8001		A Range		1961	A7SS					Engine		Engine
+DA10-13201		A Range		1961	A10						Engine		Engine
+DA10R-3001		A Range		1961	A10RR					Engine		Engine
+GA7-11101		A Range		1961	A7						Frame		Swing arm
+GA7-11101		A Range		1961	A7SS					Frame		Swing arm
+GA7-11101		A Range		1961	A10						Frame		Swing arm
+GA7-11101		A Range		1961	A10RR					Frame		Swing arm
+CA7-9714		A Range		1962	A7						Engine		Engine
+CA7SS-9277		A Range		1962	A7SS					Engine		Engine
+DA10-17181		A Range		1962	A10						Engine		Engine
+DA10R-5958		A Range		1962	A10RR					Engine		Engine
+GA7-21120		A Range		1962	A7						Frame		Swing arm
+GA7-21120		A Range		1962	A7SS					Frame		Swing arm
+GA7-21120		A Range		1962	A10						Frame		Swing arm
+GA7-21120		A Range		1962	A10RR					Frame		Swing arm
+BA10S-101		A Range		1953	A10 Super Flash			Engine		Engine
+BA10-101		A Range		1953	A10 Super Flash			Frame		Super Flash
+BA10S-701		A Range		1954	A10 Super Flash			Engine		Engine
+BA10S-701		A Range		1954	A10 Super Flash			Frame		Super Flash
+CA10SR-776		A Range		1959	A10 Super Flash			Engine		Engine
+FA7A-101		A Range		1959	A10 Super Flash			Frame		Spitfire
+DA10SR-101		A Range		1960	A10 Super Flash			Engine		Engine
+GA7A-101		A Range		1960	A10 Super Flash			Frame		Spitfire
+DA10SR-401		A Range		1961	A10 Super Flash			Engine		Engine
+GA7A-401		A Range		1961	A10 Super Flash			Frame		Spitfire
+DA10SR-5958		A Range		1962	A10 Super Flash			Engine		Engine
+GA7A-536		A Range		1962	A10 Super Flash			Frame		Spitfire
+GA10-101		A Range		1962	A10 Super Flash			Frame		RGS
+DA10SR-8197		A Range		1963	A10 Super Flash			Engine		Engine
+GA7A-748		A Range		1963	A10 Super Flash			Frame		Spitfire
+GA10-390		A Range		1963	A10 Super Flash			Frame		RGS
+DA10SR-10388	A Range		1963	A10 Super Flash			Engine		Engine
+GA10-1914		A Range		1963	A10 Super Flash			Frame		RGS
+A50-101			A Range		1962	A50						Engine		Engine
+A50-823			A Range		1963	A50						Engine		Engine
+A50A-101		A Range		1964	A50						Engine		Engine
+A50A-686		A Range		1964	A50						Engine		Engine
+A50AP-101		A Range		1964	A50 (Police)			Engine		Engine
+A50AP-121		A Range		1965	A50 (Police)			Engine		Engine
+A65-101			A Range		1962	A65						Engine		Engine
+A65-1947		A Range		1963	A65						Engine		Engine
+A65A-101		A Range		1964	A65						Engine		Engine
+A65A-1134		A Range		1964	A65						Engine		Engine
+A65AP-101		A Range		1964	A65 (Police)			Engine		Engine
+A65AP-267		A Range		1965	A65 (Police)			Engine		Engine
+A65-101			A Range		1962	A65R					Engine		Engine
+A65-1947		A Range		1963	A65R					Engine		Engine
+A65A-101		A Range		1964	A65R					Engine		Engine
+A65A-1134		A Range		1965	A65R					Engine		Engine
+A65C-101		A Range		1964	A65R (Rev-counter)		Engine		Engine
+A65C-1082		A Range		1965	A65R (Rev-counter)		Engine		Engine
+A65B-101		A Range		1964	A65T/R					Engine		Engine
+A50-101			A Range		1962	Model above frame		Engine		Engine
+A50-823			A Range		1962	Model above frame		Engine		Engine
+A50-2288		A Range		1963	Model above frame		Engine		Engine
+A50-2701		A Range		1963	Model above frame		Engine		Engine
+A50-5501		A Range		1964	Model above frame		Engine		Engine
+A50-8437		A Range		1965	Model above frame		Engine		Engine
+A50A-101		A Range		1962	Above rod brake			Engine		Engine
+A50-2701		A Range		1963	Above rod brake			Engine		Engine
+A50B-101		A Range		1964	Model below frame		Engine		Engine
+A50B-507		A Range		1964	Model below frame		Engine		Engine
+A50B-4001		A Range		1965	Model below frame		Engine		Engine
+A50B-101		A Range		1964	A50C (USA)				Engine		Engine
+A50B-507		A Range		1964	A50C (USA)				Engine		Engine
+A50D-101		A Range		1965	A50C (USA)				Engine		Engine
+A65D-101		A Range		1964	A65L/R					Engine		Engine
+A65D-1742		A Range		1965	A65L/R					Engine		Engine
+A65E-101		A Range		1964	A65SH					Engine		Engine
+A65E-701		A Range		1965	A65SH					Engine		Engine
+A50B-507		A Range		1965	A50CC (USA)				Engine		Engine
+A50B-4001		A Range		1965	A50CC (USA)				Engine		Engine
+A50DC-101		A Range		1965	A50C					Engine		Engine
+A50DC-101		A Range		1965	A50CC (UK)				Engine		Engine
+A65DC-2158		A Range		1965	A65L					Engine		Engine
+A65DC-2158		A Range		1965	A65LC					Engine		Engine
+A50R-101		A Range		1966	A50 Royal Star			Engine		Engine
+A50RA-101		A Range		1967	A50 Royal Star			Engine		Engine
+A50RB-101		A Range		1968	A50 Royal Star			Engine		Engine
+A50RC-101		A Range		1969	A50 Royal Star			Engine		Engine
+A50C-101		A Range		1966	A50 Royal Star			Frame		Frame
+A50RA-101		A Range		1967	A50 Royal Star			Frame		Frame
+A50RB-101		A Range		1968	A50 Royal Star			Frame		Frame
+A50RC-101		A Range		1969	A50 Royal Star			Frame		Frame
+A50W-101		A Range		1966	A50 Wasp				Engine		Engine
+A50WA-101		A Range		1967	A50 Wasp				Engine		Engine
+A50WB-101		A Range		1968	A50 Wasp				Engine		Engine
+A50WC-101		A Range		1969	A50 Wasp				Engine		Engine
+A50C-101		A Range		1966	A50 Wasp				Frame		Frame
+A50WA-101		A Range		1967	A50 Wasp				Frame		Frame
+A50WB-101		A Range		1968	A50 Wasp				Frame		Frame
+A50WC-101		A Range		1969	A50 Wasp				Frame		Frame
+A50T-101		A Range		1966	A50 Thunderbolt			Engine		Engine
+A50TA-101		A Range		1967	A50 Thunderbolt			Engine		Engine
+A50TB-101		A Range		1968	A50 Thunderbolt			Engine		Engine
+A50TC-101		A Range		1969	A50 Thunderbolt			Engine		Engine
+A50C-101		A Range		1966	A50 Thunderbolt			Frame		Frame
+A50TA-101		A Range		1967	A50 Thunderbolt			Frame		Frame
+A50TB-101		A Range		1968	A50 Thunderbolt			Frame		Frame
+A50TC-101		A Range		1969	A50 Thunderbolt			Frame		Frame
+A50L-101		A Range		1966	A50 Lightning			Engine		Engine
+A50LA-101		A Range		1967	A50 Lightning			Engine		Engine
+A50LB-101		A Range		1968	A50 Lightning			Engine		Engine
+A50LC-101		A Range		1969	A50 Lightning			Engine		Engine
+A50C-101		A Range		1966	A50 Lightning			Frame		Frame
+A50LA-101		A Range		1967	A50 Lightning			Frame		Frame
+A50LB-101		A Range		1968	A50 Lightning			Frame		Frame
+A50LC-101		A Range		1969	A50 Lightning			Frame		Frame
+A50H-101		A Range		1966	A50 Hornet				Engine		Engine
+A50HA-101		A Range		1967	A50 Hornet				Engine		Engine
+A50HB-101		A Range		1968	A50 Hornet				Engine		Engine
+A50HC-101		A Range		1969	A50 Hornet				Engine		Engine
+A50C-101		A Range		1966	A50 Hornet				Frame		Frame
+A50HA-101		A Range		1967	A50 Hornet				Frame		Frame
+A50HB-101		A Range		1968	A50 Hornet				Frame		Frame
+A50HC-101		A Range		1969	A50 Hornet				Frame		Frame
+A50FB-101		A Range		1968	A50 Firebird			Engine		Engine
+A50FC-101		A Range		1969	A50 Firebird			Engine		Engine
+A50FB-101		A Range		1968	A50 Firebird			Frame		Frame
+A50FC-101		A Range		1969	A50 Firebird			Frame		Frame
+A50S-101		A Range		1966	A50 Spitfire			Engine		Engine
+A50SA-101		A Range		1967	A50 Spitfire			Engine		Engine
+A50SB-101		A Range		1968	A50 Spitfire			Engine		Engine
+A50C-101		A Range		1966	A50 Spitfire			Frame		Frame
+A50SA-101		A Range		1967	A50 Spitfire			Frame		Frame
+A50SB-101		A Range		1968	A50 Spitfire			Frame		Frame

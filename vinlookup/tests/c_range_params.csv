@@ -1,92 +1,95 @@
-#Part#			Class		Year	Model			Type	Description
-C15-101			C15 Range	1959	C15				Engine		Engine
-C15-101			C15 Range	1959	C15				Frame		Frame
-C15-11001		C15 Range	1960	C15				Engine		Engine
-C15-11001		C15 Range	1960	C15				Frame		Frame
-C15-21251		C15 Range	1961	C15				Engine		Engine
-C15SS-101		C15 Range	1961	S80				Engine		Engine
-C15-22001		C15 Range	1961	C15				Frame		Frame
-C15-27644		C15 Range	1961	S80				Frame		Frame
-C15-29839		C15 Range	1962	C15				Engine		Engine
-C15SS-1101		C15 Range	1962	S80				Engine		Engine
-C15-31801		C15 Range	1962	C15				Frame		Frame
-C15-31801		C15 Range	1962	S80				Frame		Frame
-C15-41807		C15 Range	1963	C15				Engine		Engine
-C15SS-2705		C15 Range	1963	S80				Engine		Engine
-C15-38035		C15 Range	1963	C15				Frame		Frame
-C15-38035		C15 Range	1963	S80				Frame		Frame
-C15D-101		C15 Range	1964	C15				Engine		Engine
-C15SS-3633		C15 Range	1964	S80				Engine		Engine
-C15-42211		C15 Range	1964	C15				Frame		Frame
-C15-42211		C15 Range	1964	S80				Frame		Frame
-C15F-101		C15 Range	1965	C15				Engine		Engine
-C15FSS-101		C15 Range	1965	S80				Engine		Engine
-C15-45501		C15 Range	1965	C15				Frame		Frame
-C15-45501		C15 Range	1965	S80				Frame		Frame
-C15F-2089		C15 Range	1966	C15				Engine		Engine
-C15FSS-2001		C15 Range	1966	S80				Engine		Engine
-C15-49001		C15 Range	1966	C15				Frame		Frame
-C15-49001		C15 Range	1966	S80				Frame		Frame
-C15G-101		C15 Range	1967	C15				Engine		Engine
-C15SG-101		C15 Range	1967	S80				Engine		Engine
-C15G-101		C15 Range	1967	C15				Frame		Frame
-C15SG-101		C15 Range	1967	S80				Frame		Frame
-C15S-101		C15 Range	1959	C15S			Engine		Engine
-C15T-101		C15 Range	1959	C15T			Engine		Engine
-C15S-101		C15 Range	1959	C15S			Frame		Frame
-C15T-101		C15 Range	1959	C15T			Frame		Frame
-C15S-301		C15 Range	1960	C15S			Engine		Engine
-C15T-301		C15 Range	1960	C15T			Engine		Engine
-C15S-501		C15 Range	1960	C15S			Frame		Frame
-C15T-501		C15 Range	1960	C15T			Frame		Frame
-C15S-2112		C15 Range	1961	C15S			Engine		Engine
-C15T-1056		C15 Range	1961	C15T			Engine		Engine
-C15S-2701		C15 Range	1961	C15S			Frame		Frame
-C15T-2701		C15 Range	1961	C15T			Frame		Frame
-C15S-3101		C15 Range	1962	C15S			Engine		Engine
-C15T-1451		C15 Range	1962	C15T			Engine		Engine
-C15S-3601		C15 Range	1962	C15S			Frame		Frame
-C15T-10001		C15 Range	1962	C15T			Frame		Frame
-C15S-4001		C15 Range	1963	C15S			Engine		Engine
-C15T-2001		C15 Range	1963	C15T			Engine		Engine
-C15C-101		C15 Range	1963	C15S			Frame		Frame
-C15C-101		C15 Range	1963	C15T			Frame		Frame
-C15S-4373		C15 Range	1964	C15S			Engine		Engine
-C15T-2116		C15 Range	1964	C15T			Engine		Engine
-C15C-853		C15 Range	1964	C15S			Frame		Frame
-C15C-853		C15 Range	1964	C15T			Frame		Frame
-C15FS-101		C15 Range	1965	C15S			Engine		Engine
-C15FT-101		C15 Range	1965	C15T			Engine		Engine
-C15C-1601		C15 Range	1965	C15S			Frame		Frame
-C15C-1601		C15 Range	1965	C15T			Frame		Frame
-C15B-409		C15 Range	1963	C15 USA			Engine		Engine
-C15P-41087		C15 Range	1963	C15 police		Engine		Engine
-C15B-38035		C15 Range	1963	C15 USA			Frame		Frame
-C15P-38035		C15 Range	1963	C15 police		Frame		Frame
-C15DB-101		C15 Range	1964	C15 USA			Engine		Engine
-C15DP-101		C15 Range	1964	C15 police		Engine		Engine
-C15-42211		C15 Range	1964	C15 USA			Frame		Frame
-C15-42211		C15 Range	1964	C15 police		Frame		Frame
-C15FB-101		C15 Range	1965	C15 USA			Engine		Engine
-C15FP-101		C15 Range	1965	C15 police		Engine		Engine
-C15-45501		C15 Range	1965	C15 USA			Frame		Frame
-C15-45501		C15 Range	1965	C15 police		Frame		Frame
-C15PG-101		C15 Range	1967	C15 police		Engine		Engine
-C15PG-101		C15 Range	1967	C15 police		Frame		Frame
-C15T-1602		C15 Range	1963	Pastoral		Engine		Engine
-C15R-101		C15 Range	1963	C15 Racer		Engine		Engine
-C15A-137		C15 Range	1963	Pastoral		Frame		Frame
-C15S-4123		C15 Range	1963	C15 Racer		Frame		Frame
-C15T-2116		C15 Range	1964	Pastoral		Engine		Engine
-C15E-101		C15 Range	1964	Pastoral		Frame		Frame
-C15FT-101		C15 Range	1965	Pastoral		Engine		Engine
-C15E-101		C15 Range	1965	Pastoral		Frame		Frame
-C15E-41807		C15 Range	1963	C15 Starfire	Engine		Engine
-C15C-101		C15 Range	1963	C15 Starfire	Frame		Frame
-C15SR-225		C15 Range	1964	C15 Starfire	Engine		Engine
-C15C-853		C15 Range	1964	C15 Starfire	Frame		Frame
-C15FSR-101		C15 Range	1965	C15 Starfire	Engine		Engine
-C15FT-101		C15 Range	1965	C15 Trials Cat	Engine		Engine
-C15C-1601		C15 Range	1965	C15 Starfire	Frame		Frame
-C15C-1601		C15 Range	1965	C15 Trials Cat	Frame		Frame
-#Part#			Class	Year	Model			Type	Description
+#Part#		Class		Year	Model			Type	Description
+C15-101		C15 Range	1959	C15				Engine		Engine
+C15-101		C15 Range	1959	C15				Frame		Frame
+C15-11001	C15 Range	1959	C15				Frame		Frame
+C15-11001	C15 Range	1960	C15				Engine		Engine
+C15-11101	C15 Range	1960	C15				Frame		Frame
+C15-21251	C15 Range	1961	C15				Engine		Engine
+C15SS-101	C15 Range	1961	S80				Engine		Engine
+C15-22001	C15 Range	1961	C15				Frame		Frame
+C15-27644	C15 Range	1961	S80				Frame		Frame
+C15-29839	C15 Range	1962	C15				Engine		Engine
+C15SS-1101	C15 Range	1962	S80				Engine		Engine
+C15-31801	C15 Range	1962	C15				Frame		Frame
+C15-31801	C15 Range	1962	S80				Frame		Frame
+C15-41807	C15 Range	1963	C15				Engine		Engine
+C15SS-2705	C15 Range	1963	S80				Engine		Engine
+C15-38035	C15 Range	1963	C15				Frame		Frame
+C15-38035	C15 Range	1963	S80				Frame		Frame
+C15D-101	C15 Range	1964	C15				Engine		Engine
+C15SS-3633	C15 Range	1964	S80				Engine		Engine
+C15-42211	C15 Range	1964	C15				Frame		Frame
+C15-42211	C15 Range	1964	S80				Frame		Frame
+C15F-101	C15 Range	1965	C15				Engine		Engine
+C15FSS-101	C15 Range	1965	S80				Engine		Engine
+C15-45501	C15 Range	1965	C15				Frame		Frame
+C15-45501	C15 Range	1965	S80				Frame		Frame
+C15F-2089	C15 Range	1966	C15				Engine		Engine
+C15FSS-2001	C15 Range	1966	S80				Engine		Engine
+C15-49001	C15 Range	1966	C15				Frame		Frame
+C15-49001	C15 Range	1966	S80				Frame		Frame
+C15G-101	C15 Range	1967	C15				Engine		Engine
+C15SG-101	C15 Range	1967	S80				Engine		Engine
+C15G-101	C15 Range	1967	C15				Frame		Frame
+C15SG-101	C15 Range	1967	S80				Frame		Frame
+C15S-101	C15 Range	1959	C15S			Engine		Engine
+C15T-101	C15 Range	1959	C15T			Engine		Engine
+C15S-101	C15 Range	1959	C15S			Frame		Frame
+C15S-101	C15 Range	1959	C15T			Frame		Frame
+C15S-301	C15 Range	1960	C15S			Engine		Engine
+C15T-301	C15 Range	1960	C15T			Engine		Engine
+C15S-501	C15 Range	1960	C15S			Frame		Frame
+C15S-501	C15 Range	1960	C15T			Frame		Frame
+C15S-2112	C15 Range	1961	C15S			Engine		Engine
+C15T-1056	C15 Range	1961	C15T			Engine		Engine
+C15S-2701	C15 Range	1961	C15S			Frame		Frame
+C15S-2701	C15 Range	1961	C15T			Frame		Frame
+C15S-3101	C15 Range	1962	C15S			Engine		Engine
+C15T-1451	C15 Range	1962	C15T			Engine		Engine
+C15T-1602	C15 Range	1962	C15T			Engine		Engine
+C15S-3601	C15 Range	1962	C15S			Frame		Frame
+C15S-10001	C15 Range	1962	C15T			Frame		Frame
+C15S-4001	C15 Range	1963	C15S			Engine		Engine
+C15S-4123	C15 Range	1963	C15S			Engine		Engine
+C15T-2001	C15 Range	1963	C15T			Engine		Engine
+C15C-101	C15 Range	1963	C15S			Frame		Frame
+C15C-101	C15 Range	1963	C15T			Frame		Frame
+C15S-4373	C15 Range	1964	C15S			Engine		Engine
+C15T-2116	C15 Range	1964	C15T			Engine		Engine
+C15C-853	C15 Range	1964	C15S			Frame		Frame
+C15C-853	C15 Range	1964	C15T			Frame		Frame
+C15FS-101	C15 Range	1965	C15S			Engine		Engine
+C15FT-101	C15 Range	1965	C15T			Engine		Engine
+C15C-1601	C15 Range	1965	C15S			Frame		Frame
+C15C-1601	C15 Range	1965	C15T			Frame		Frame
+C15B-409	C15 Range	1963	C15 USA			Engine		Engine
+C15P-41807	C15 Range	1963	C15 police		Engine		Engine
+C15-38035	C15 Range	1963	C15 USA			Frame		Frame
+C15-38035	C15 Range	1963	C15 police		Frame		Frame
+C15DB-101	C15 Range	1964	C15 USA			Engine		Engine
+C15DP-101	C15 Range	1964	C15 police		Engine		Engine
+C15-42211	C15 Range	1964	C15 USA			Frame		Frame
+C15-42211	C15 Range	1964	C15 police		Frame		Frame
+C15FB-101	C15 Range	1965	C15 USA			Engine		Engine
+C15FP-101	C15 Range	1965	C15 police		Engine		Engine
+C15-45501	C15 Range	1965	C15 USA			Frame		Frame
+C15-45501	C15 Range	1965	C15 police		Frame		Frame
+C15PG-101	C15 Range	1967	C15 police		Engine		Engine
+C15PG-101	C15 Range	1967	C15 police		Frame		Frame
+C15T-1602	C15 Range	1963	Pastoral		Engine		Engine
+C15T-2001	C15 Range	1963	Pastoral		Engine		Engine
+C15R-101	C15 Range	1963	C15 Racer		Engine		Engine
+C15A-137	C15 Range	1963	Pastoral		Frame		Frame
+C15S-4123	C15 Range	1963	C15 Racer		Frame		Frame
+C15T-2116	C15 Range	1964	Pastoral		Engine		Engine
+C15E-101	C15 Range	1964	Pastoral		Frame		Frame
+C15FT-101	C15 Range	1965	Pastoral		Engine		Engine
+C15E-136	C15 Range	1965	Pastoral		Frame		Frame
+C15-41807	C15 Range	1963	C15 Starfire	Engine		Engine
+C15C-101	C15 Range	1963	C15 Starfire	Frame		Frame
+C15SR-225	C15 Range	1964	C15 Starfire	Engine		Engine
+C15C-853	C15 Range	1964	C15 Starfire	Frame		Frame
+C15FSR-101	C15 Range	1965	C15 Starfire	Engine		Engine
+C15FT-101	C15 Range	1965	C15 Trials Cat	Engine		Engine
+C15C-1601	C15 Range	1965	C15 Starfire	Frame		Frame
+C15C-1601	C15 Range	1965	C15 Trials Cat	Frame		Frame

@@ -67,12 +67,17 @@ class test_bsa_decode(TestCase):
 
     def test_bantam(self):
         self._run_tests('bantam_params.csv')
-
     def test_crange(self):
         self._run_tests('c_class_params.csv')
-
     def test_brange(self):
         self._run_tests('b_range_params.csv')
-		
     def test_brange(self):
         self._run_tests('m_range_params.csv')
+    def test_brange(self):
+        self._run_tests('c_range_params.csv')
+    def test_brange(self):
+        self._run_tests('b40_c25_b25_b44_range_params.csv')
+    def test_brange(self):
+        self._run_tests('a_range_params.csv')
+    def test_brange(self):
+        self._run_tests('scooters_params.csv')
