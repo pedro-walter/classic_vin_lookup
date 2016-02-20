@@ -1,0 +1,71 @@
+#Part#		Class		Year	Model			Type	Description
+B40-101		B40 Range	1961	B40				Engine		Engine
+B40-101		B40 Range	1961	B40				Frame		Frame
+#
+B40-3601	B40 Range	1962	B40				Engine		Engine
+B40BSS-101	B40 Range	1962	SS90			Engine		Engine
+B40-3511	B40 Range	1962	B40				Frame		Frame
+B40-3511	B40 Range	1962	SS90			Frame		Frame
+#
+B40-4506	B40 Range	1963	B40				Engine		Engine
+B40SS-180	B40 Range	1963	SS90			Engine		Engine
+B40-5017	B40 Range	1963	B40				Frame		Frame
+B40-5017	B40 Range	1963	SS90			Frame		Frame
+#
+B40-5275	B40 Range	1964	B40				Engine		Engine
+B40SS-426	B40 Range	1964	SS90			Engine		Engine
+B40-6668	B40 Range	1964	B40				Frame		Frame
+B40-6668	B40 Range	1964	SS90			Frame		Frame
+#
+B40F-101	B40 Range	1965	B40				Engine		Engine
+B40FSS-101	B40 Range	1965	SS90			Engine		Engine
+B40-7775	B40 Range	1965	B40				Frame		Frame
+B40-7775	B40 Range	1965	SS90			Frame		Frame
+#
+B40F-1149	B40 Range	1966	B40				Engine		Engine
+B40G-101	B40 Range	1966	B40				Engine		Engine
+B40-9973	B40 Range	1966	B40				Frame		Frame
+B40-9973	B40 Range	1966	B40				Frame		Frame
+B40G-201	B40 Range	1967	B40				Engine		Engine
+B40G-201	B40 Range	1967	B40				Frame		Frame
+#
+B40B-563	B40 Range	1963	B40 (USA)		Engine		Engine
+B40-5017	B40 Range	1963	B40 (USA)		Frame		Frame
+B40-5275	B40 Range	1963	B40 (USA)		Frame		Frame
+B40P-5275	B40 Range	1964	B40 (Police)	Engine		Engine
+B40-6668	B40 Range	1964	B40 (Police)	Frame		Frame
+B40FP-101	B40 Range	1965	B40 (Police)	Engine		Engine
+B40-7775	B40 Range	1965	B40 (Police)	Frame		Frame
+B40B-1088	B40 Range	1964	B40 Super Star	Engine		Engine
+B40-6668	B40 Range	1964	B40 Super Star	Frame		Frame
+B40FB-101	B40 Range	1965	B40 Sportsman	Engine		Engine
+B40-7775	B40 Range	1965	B40 Sportsman	Frame		Frame
+#
+B40T-143	B40 Range	1964	B40 Enduro Star	Engine		Engine				
+#C15C-853	B40 Range	1964	B40 Enduro Star	Frame		Frame				
+B40FE-101	B40 Range	1965	B40 Enduro Star	Engine		Engine				
+#C15C-1601	B40 Range	1965	B40 Enduro Star	Frame		Frame				
+#
+HCB40-462	B40 Range	1969	B40 Rough Rider	Engine		Engine				
+HCB40-462	B40 Range	1969	B40 Rough Rider	Frame		Frame				
+C25-101		C25 Range	1967	C25				Engine		Engine				
+C25-101		B25 Range	1967	B25				Engine		Engine				
+C25-101		C25 Range	1967	C25				Frame		Frame				
+B25-101		B25 Range	1967	B25				Frame		Frame				
+#
+B25B-101	B25 Range	1968	B25				Engine		Engine				
+B25B-101	B25 Range	1968	B25				Frame		Frame				
+#
+B44-101		B44 Range	1966	B44GP			Engine		Engine				
+B44-101		B44 Range	1966	B44GP			Frame		Frame				
+B44-131		B44 Range	1967	B44GP			Engine		Engine				
+B44-267		B44 Range	1967	B44GP			Frame		Frame				
+#
+B44E-101	B44 Range	1966	B44VE			Engine		Engine				
+#C15C-3137	B44 Range	1966	B44VE			Frame		Frame				
+#
+B44EA-101	B44 Range	1967	B44VE			Engine		Engine				
+B44EA-101	B44 Range	1967	B44VE			Frame		Frame				
+B44R-101	B44 Range	1967	B44VR			Engine		Engine				
+B44R-101	B44 Range	1967	B44VR			Frame		Frame				
+#

@@ -654,44 +654,219 @@ C15 Range	1965	C15 Trials Cat	Frame		Frame				^(c15c)-(\d+)$		1			1601		99999
 #=======================================================================================================================
 #Class		Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
 #=======================================================================================================================
-#B40 Range	1961	B40				Engine		Engine				^(b40)-(\d+)$		1			
-#B40 Range	1961	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1962	B40				Engine		Engine				^(b40)-(\d+)$		1			
-#B40 Range	1962	SS90			Engine		Engine				^(b40bss)-(\d+)$	1			
-#B40 Range	1962	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1962	SS90			Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1963	B40				Engine		Engine				^(b40)-(\d+)$		1			
-#B40 Range	1963	SS90			Engine		Engine				^(b40ss)-(\d+)$		1			
-#B40 Range	1963	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1963	SS90			Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1964	B40				Engine		Engine				^(b40)-(\d+)$		1			
-#B40 Range	1964	SS90			Engine		Engine				^(b40ss)-(\d+)$		1			
-#B40 Range	1964	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1964	SS90			Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1965	B40				Engine		Engine				^(b40f)-(\d+)$		1			
-#B40 Range	1965	SS90			Engine		Engine				^(b40fss)-(\d+)$	1			
-#B40 Range	1965	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1965	SS90			Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1966	B40				Engine		Engine				^(b40f)-(\d+)$		1			
-#B40 Range	1966	B40				Engine		Engine				^(b40g)-(\d+)$		1			
-#B40 Range	1966	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1966	B40				Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1967	B40				Engine		Engine				^(b40g)-(\d+)$		1			
-#B40 Range	1967	B40				Frame		Frame				^(b40g)-(\d+)$		1			
-##
-#B40 Range	1963	B40	(USA)		Engine		Engine				^(b40b)-(\d+)$		1			
-#B40 Range	1963	B40	(USA)		Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1964	B40	(Police)	Engine		Engine				^(b40p)-(\d+)$		1			
-#B40 Range	1964	B40	(Police)	Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1965	B40	(Police)	Engine		Engine				^(b40fp)-(\d+)$		1			
-#B40 Range	1965	B40	(Police)	Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1964	B40	Super Star	Engine		Engine				^(b40b)-(\d+)$		1			
-#B40 Range	1964	B40	Super Star	Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1965	B40	Sportsman	Engine		Engine				^(b40fb)-(\d+)$		1			
-#B40 Range	1965	B40	Sportsman	Frame		Frame				^(b40)-(\d+)$		1			
-#B40 Range	1964	B40	Enduro Star	Engine		Engine				^(b40t)-(\d+)$		1			
-#B40 Range	1964	B40	Enduro Star	Engine		Engine				^(b40fe)-(\d+)$		1			
-#B40 Range	1964	B40	Enduro Star	Frame		Frame				^(c15c)-(\d+)$		1			
-#B40 Range	1964	B40	Enduro Star	Frame		Frame				^(c15c)-(\d+)$		1			
-#B40 Range	1969	B40	Rough Rider	Engine		Engine				^(hcb40)-(\d+)$		1			
-#B40 Range	1969	B40	Rough Rider	Frame		Frame				^(hcb40)-(\d+)$		1			
+B40 Range	1961	B40				Engine		Engine				^(b40)-(\d+)$		1			101			3510
+B40 Range	1961	B40				Frame		Frame				^(b40)-(\d+)$		1			101			3510
+B40 Range	1962	B40				Engine		Engine				^(b40)-(\d+)$		1			3601		4505
+B40 Range	1962	SS90			Engine		Engine				^(b40bss)-(\d+)$	1			101			99999
+B40 Range	1962	B40				Frame		Frame				^(b40)-(\d+)$		1			3511		3600
+B40 Range	1962	SS90			Frame		Frame				^(b40)-(\d+)$		1			3511		3600
+B40 Range	1963	B40				Engine		Engine				^(b40)-(\d+)$		1			4506		5016
+B40 Range	1963	SS90			Engine		Engine				^(b40ss)-(\d+)$		1			180			425
+B40 Range	1963	B40				Frame		Frame				^(b40)-(\d+)$		1			5017		5274
+B40 Range	1963	SS90			Frame		Frame				^(b40)-(\d+)$		1			5017		5274
+B40 Range	1964	B40				Engine		Engine				^(b40)-(\d+)$		1			5275		6667
+B40 Range	1964	SS90			Engine		Engine				^(b40ss)-(\d+)$		1			426			99999
+B40 Range	1964	B40				Frame		Frame				^(b40)-(\d+)$		1			6668		7774
+B40 Range	1964	SS90			Frame		Frame				^(b40)-(\d+)$		1			6668		7774
+B40 Range	1965	B40				Engine		Engine				^(b40f)-(\d+)$		1			101			1148
+B40 Range	1965	SS90			Engine		Engine				^(b40fss)-(\d+)$	1			101			99999
+B40 Range	1965	B40				Frame		Frame				^(b40)-(\d+)$		1			7775		9972
+B40 Range	1965	SS90			Frame		Frame				^(b40)-(\d+)$		1			7775		9972
+B40 Range	1966	B40				Engine		Engine				^(b40f)-(\d+)$		1			1149		99999
+B40 Range	1966	B40				Engine		Engine				^(b40g)-(\d+)$		1			101			200
+B40 Range	1966	B40				Frame		Frame				^(b40)-(\d+)$		1			9973		99999
+B40 Range	1966	B40				Frame		Frame				^(b40)-(\d+)$		1			9973		99999
+B40 Range	1967	B40				Engine		Engine				^(b40g)-(\d+)$		1			201			99999
+B40 Range	1967	B40				Frame		Frame				^(b40g)-(\d+)$		1			201			99999
+B40 Range	1963	B40 (USA)		Engine		Engine				^(b40b)-(\d+)$		1			563			1087
+B40 Range	1963	B40 (USA)		Frame		Frame				^(b40)-(\d+)$		1			5017		6667
+B40 Range	1964	B40 (Police)	Engine		Engine				^(b40p)-(\d+)$		1			5275		99999
+B40 Range	1964	B40 (Police)	Frame		Frame				^(b40)-(\d+)$		1			6668		7774
+B40 Range	1965	B40 (Police)	Engine		Engine				^(b40fp)-(\d+)$		1			101			9999
+B40 Range	1965	B40 (Police)	Frame		Frame				^(b40)-(\d+)$		1			7775		9972
+B40 Range	1964	B40 Super Star	Engine		Engine				^(b40b)-(\d+)$		1			1088		1088
+B40 Range	1964	B40 Super Star	Frame		Frame				^(b40)-(\d+)$		1			6668		7774
+B40 Range	1965	B40 Sportsman	Engine		Engine				^(b40fb)-(\d+)$		1			101			101
+B40 Range	1965	B40 Sportsman	Frame		Frame				^(b40)-(\d+)$		1			7775		9972
+B40 Range	1964	B40 Enduro Star	Engine		Engine				^(b40t)-(\d+)$		1			143			9999
+B40 Range	1964	B40 Enduro Star	Frame		Frame				^(c15c)-(\d+)$		1			853			1600
+B40 Range	1965	B40 Enduro Star	Engine		Engine				^(b40fe)-(\d+)$		1			101			99999
+B40 Range	1965	B40 Enduro Star	Frame		Frame				^(c15c)-(\d+)$		1			1601		3136
+B40 Range	1969	B40 Rough Rider	Engine		Engine				^(hcb40)-(\d+)$		1			462			99999
+B40 Range	1969	B40 Rough Rider	Frame		Frame				^(hcb40)-(\d+)$		1			462			99999
+C25 Range	1967	C25				Engine		Engine				^(c25)-(\d+)$		1			101			99999
+B25 Range	1967	B25				Engine		Engine				^(c25)-(\d+)$		1			101			99999
+C25 Range	1967	C25				Frame		Frame				^(c25)-(\d+)$		1			101			99999
+B25 Range	1967	B25				Frame		Frame				^(b25)-(\d+)$		1			101			99999
+B25 Range	1968	B25				Engine		Engine				^(b25b)-(\d+)$		1			101			99999
+B25 Range	1968	B25				Frame		Frame				^(b25b)-(\d+)$		1			101			99999
+B44 Range	1966	B44GP			Engine		Engine				^(b44)-(\d+)$		1			101			130
+B44 Range	1966	B44GP			Frame		Frame				^(b44)-(\d+)$		1			101			130
+B44 Range	1967	B44GP			Engine		Engine				^(b44)-(\d+)$		1			131			266
+B44 Range	1967	B44GP			Frame		Frame				^(b44)-(\d+)$		1			267			99999
+B44 Range	1966	B44VE			Engine		Engine				^(b44e)-(\d+)$		1			101			99999
+B44 Range	1966	B44VE			Frame		Frame				^(c15c)-(\d+)$		1			3137		12345
+B44 Range	1967	B44VE			Engine		Engine				^(b44ea)-(\d+)$		1			101			99999
+B44 Range	1967	B44VE			Frame		Frame				^(b44ea)-(\d+)$		1			101			99999
+B44 Range	1967	B44VR			Engine		Engine				^(b44r)-(\d+)$		1			101			99999
+B44 Range	1967	B44VR			Frame		Frame				^(b44r)-(\d+)$		1			101			99999
+#B44 Range	1968	B44SS			Engine		Engine				^(b44b)-(\d+)$		1			101SS		101SS
+#B44 Range	1968	B44SS			Frame		Frame				^(b44b)-(\d+)$		1			101VS		101VS
+#=======================================================================================================================
+#Class		Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#=======================================================================================================================
+A Range		1947	A7				Frame		Rigid				^(xa7)-(\d+)$		1			101			99999
+A Range		1947	A7				Engine		Engine				^(xa7)-(\d+)$		1			101			99999
+A Range		1948	A7				Engine		Engine				^(ya7)-(\d+)$		1			101			99999
+A Range		1948	A7				Frame		Rigid				^(ya7)-(\d+)$		1			101			99999
+A Range		1949	A7				Engine		Engine				^(za7)-(\d+)$		1			101			7000
+A Range		1949	A7ST			Engine		Engine				^(za7s)-(\d+)$		1			101			4000
+A Range		1949	A7				Frame		Rigid				^(za7)-(\d+)$		1			101			4000
+A Range		1949	A7ST			Frame		Rigid				^(za7)-(\d+)$		1			101			4000
+A Range		1949	A7				Frame		Plunger				^(za7s)-(\d+)$		1			101			6000
+A Range		1949	A7ST			Frame		Plunger				^(za7s)-(\d+)$		1			101			6000
+A Range		1950	A7				Engine		Engine				^(za7)-(\d+)$		1			7001		8000
+A Range		1950	A7ST			Engine		Engine				^(za7s)-(\d+)$		1			4001		6000
+A Range		1950	A10				Engine		Engine				^(za10)-(\d+)$		1			101			4000
+A Range		1950	A7				Frame		Rigid				^(za7)-(\d+)$		1			4001		7000
+A Range		1950	A7ST			Frame		Rigid				^(za7)-(\d+)$		1			4001		7000
+A Range		1950	A10				Frame		Rigid				^(za7)-(\d+)$		1			4001		7000
+A Range		1950	A7				Frame		Plunger				^(za7s)-(\d+)$		1			6001		14000
+A Range		1950	A7ST			Frame		Plunger				^(za7s)-(\d+)$		1			6001		14000
+A Range		1950	A10				Frame		Plunger				^(za7s)-(\d+)$		1			6001		14000
+A Range		1951	A7				Engine		Engine				^(aa7)-(\d+)$		1			101		5000
+A Range		1951	A7ST			Engine		Engine				^(aa7s)-(\d+)$		1			101		1000
+A Range		1951	A10				Engine		Engine				^(za10)-(\d+)$		1			4001	12000
+A Range		1951	A7				Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1951	A7ST			Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1951	A10				Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1951	A7				Frame		Plunger				^(za7s)-(\d+)$		1			14001	26000
+A Range		1951	A7ST			Frame		Plunger				^(za7s)-(\d+)$		1			14001	26000
+A Range		1951	A10				Frame		Plunger				^(za7s)-(\d+)$		1			14001	26000
+A Range		1952	A7				Engine		Engine				^(aa7)-(\d+)$		1			5001	99999
+A Range		1952	A7ST			Engine		Engine				^(aa7s)-(\d+)$		1			1001	99999
+A Range		1952	A10				Engine		Engine				^(za10)-(\d+)$		1			12001	99999
+A Range		1952	A7				Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1952	A7ST			Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1952	A10				Frame		Rigid				^(za7)-(\d+)$		1			8001	99999
+A Range		1952	A7				Frame		Plunger				^(za7s)-(\d+)$		1			26001	99999
+A Range		1952	A7ST			Frame		Plunger				^(za7s)-(\d+)$		1			26001	99999
+A Range		1952	A10				Frame		Plunger				^(za7s)-(\d+)$		1			26001	99999
+A Range		1953	A7				Engine		Engine				^(ba7)-(\d+)$		1			101		2000
+A Range		1953	A7ST			Engine		Engine				^(ba7s)-(\d+)$		1			101		2000
+A Range		1953	A10				Engine		Engine				^(ba10)-(\d+)$		1			101		7000
+A Range		1953	A7				Frame		Rigid				^(ba7)-(\d+)$		1			101		2000
+A Range		1953	A7ST			Frame		Rigid				^(ba7)-(\d+)$		1			101		2000
+A Range		1953	A10				Frame		Rigid				^(ba7)-(\d+)$		1			101		2000
+A Range		1953	A7				Frame		Plunger				^(ba7s)-(\d+)$		1			101		2000
+A Range		1953	A7ST			Frame		Plunger				^(ba7s)-(\d+)$		1			101		2000
+A Range		1953	A10				Frame		Plunger				^(ba7s)-(\d+)$		1			101		2000
+A Range		1954	A7				Engine		Engine				^(ba7)-(\d+)$		1			2001	99999
+A Range		1954	A7ST			Engine		Engine				^(ba7s)-(\d+)$		1			2001	8949
+A Range		1954	A10				Engine		Engine				^(ba10)-(\d+)$		1			7001	11000
+A Range		1954	A7				Frame		Plunger				^(ba7s)-(\d+)$		1			8950	15000
+A Range		1954	A7ST			Frame		Plunger				^(ba7s)-(\d+)$		1			8950	15000
+A Range		1954	A10				Frame		Plunger				^(ba7s)-(\d+)$		1			8950	15000
+A Range		1955	A10				Engine		Engine				^(ba10)-(\d+)$		1			11001	14000
+A Range		1955	A10				Frame		Plunger				^(ba7s)-(\d+)$		1			15001	18000
+A Range		1956	A10				Engine		Engine				^(ba10)-(\d+)$		1			14001	16035
+A Range		1956	A10				Frame		Plunger				^(ba7s)-(\d+)$		1			18001	20288
+A Range		1957	A10				Engine		Engine				^(ba10)-(\d+)$		1			16036	99999
+A Range		1957	A10				Frame		Plunger				^(ba7s)-(\d+)$		1			20289	99999
+#=======================================================================================================================
+#Class		Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#=======================================================================================================================
+A Range		1954	A7				Engine		Engine				^(ca7)-(\d+)$		1			101		1500
+A Range		1954	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			101		500
+A Range		1954	A10				Engine		Engine				^(ca10)-(\d+)$		1			101		4500
+A Range		1954	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			101		600
+A Range		1954	A7				Frame		Swing arm			^(ca7)-(\d+)$		1			101		7000
+A Range		1954	A7SS			Frame		Swing arm			^(ca7)-(\d+)$		1			101		7000
+A Range		1954	A10				Frame		Swing arm			^(ca7)-(\d+)$		1			101		7000
+A Range		1954	A10RR			Frame		Swing arm			^(ca7)-(\d+)$		1			101		7000
+A Range		1955	A7				Engine		Engine				^(ca7)-(\d+)$		1			1501	2700
+A Range		1955	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			501		2300
+A Range		1955	A10				Engine		Engine				^(ca10)-(\d+)$		1			4501	8000
+A Range		1955	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			601		2000
+A Range		1955	A7				Frame		Swing arm			^(ca7)-(\d+)$		1			7001	7100
+A Range		1955	A7SS			Frame		Swing arm			^(ca7)-(\d+)$		1			7001	7100
+A Range		1955	A10				Frame		Swing arm			^(ca7)-(\d+)$		1			7001	7100
+A Range		1955	A10RR			Frame		Swing arm			^(ca7)-(\d+)$		1			7001	7100
+A Range		1956	A7				Engine		Engine				^(ca7)-(\d+)$		1			2701	5000
+A Range		1956	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			2301	4500
+A Range		1956	A10				Engine		Engine				^(ca10)-(\d+)$		1			8001	9999
+A Range		1956	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			2001	6000
+A Range		1956	A7				Frame		Swing arm			^(ea7)-(\d+)$		1			101		9999
+A Range		1956	A7SS			Frame		Swing arm			^(ea7)-(\d+)$		1			101		9999
+A Range		1956	A10				Frame		Swing arm			^(ea7)-(\d+)$		1			101		9999
+A Range		1956	A10RR			Frame		Swing arm			^(ea7)-(\d+)$		1			101		9999
+A Range		1957	A7				Engine		Engine				^(ca7)-(\d+)$		1			1		100
+A Range		1957	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			1		100
+A Range		1957	A10				Engine		Engine				^(ca10)-(\d+)$		1			1		100
+A Range		1957	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			1		100
+A Range		1957	A7				Frame		Swing arm			^(ca7)-(\d+)$		1			1		100
+A Range		1957	A7SS			Frame		Swing arm			^(ca7)-(\d+)$		1			1		100
+A Range		1957	A10				Frame		Swing arm			^(ca7)-(\d+)$		1			1		100
+A Range		1957	A10RR			Frame		Swing arm			^(ca7)-(\d+)$		1			1		100
+A Range		1958	A7				Engine		Engine				^(ca7)-(\d+)$		1			5001	5866
+A Range		1958	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			4501	5424
+A Range		1958	A10				Engine		Engine				^(da10)-(\d+)$		1			651		4615
+A Range		1958	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			6001	8192
+A Range		1958	A7				Frame		Swing arm			^(fa7)-(\d+)$		1			101		8521
+A Range		1958	A7SS			Frame		Swing arm			^(fa7)-(\d+)$		1			101		8521
+A Range		1958	A10				Frame		Swing arm			^(fa7)-(\d+)$		1			101		8521
+A Range		1958	A10RR			Frame		Swing arm			^(fa7)-(\d+)$		1			101		8521
+A Range		1959	A7				Engine		Engine				^(ca7)-(\d+)$		1			5867	7100
+A Range		1959	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			5425	6700
+A Range		1959	A10				Engine		Engine				^(da10)-(\d+)$		1			4616	7800
+A Range		1959	A10RR			Engine		Engine				^(ca10r)-(\d+)$		1			8193	99999
+A Range		1959	A7				Frame		Swing arm			^(fa7)-(\d+)$		1			8522	99999
+A Range		1959	A7SS			Frame		Swing arm			^(fa7)-(\d+)$		1			8522	99999
+A Range		1959	A10				Frame		Swing arm			^(fa7)-(\d+)$		1			8522	99999
+A Range		1959	A10RR			Frame		Swing arm			^(fa7)-(\d+)$		1			8522	99999
+A Range		1960	A7				Engine		Engine				^(ca7)-(\d+)$		1			7101	8500
+A Range		1960	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			6701	8000
+A Range		1960	A10				Engine		Engine				^(da10)-(\d+)$		1			7801	13200
+A Range		1960	A10RR			Engine		Engine				^(da10r)-(\d+)$		1			101		3000
+A Range		1960	A7				Frame		Swing arm			^(ga7)-(\d+)$		1			101		1110
+A Range		1960	A7SS			Frame		Swing arm			^(ga7)-(\d+)$		1			101		1110
+A Range		1960	A10				Frame		Swing arm			^(ga7)-(\d+)$		1			101		1110
+A Range		1960	A10RR			Frame		Swing arm			^(ga7)-(\d+)$		1			101		1110
+A Range		1961	A7				Engine		Engine				^(ca7)-(\d+)$		1			8501	9713
+A Range		1961	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			8001	9276
+A Range		1961	A10				Engine		Engine				^(da10)-(\d+)$		1			13201	17180
+A Range		1961	A10RR			Engine		Engine				^(da10r)-(\d+)$		1			3001	5957
+A Range		1961	A7				Frame		Swing arm			^(ga7)-(\d+)$		1			11101	21119
+A Range		1961	A7SS			Frame		Swing arm			^(ga7)-(\d+)$		1			11101	21119
+A Range		1961	A10				Frame		Swing arm			^(ga7)-(\d+)$		1			11101	21119
+A Range		1961	A10RR			Frame		Swing arm			^(ga7)-(\d+)$		1			11101	21119
+A Range		1962	A7				Engine		Engine				^(ca7)-(\d+)$		1			9714	99999
+A Range		1962	A7SS			Engine		Engine				^(ca7ss)-(\d+)$		1			9277	99999
+A Range		1962	A10				Engine		Engine				^(da10)-(\d+)$		1			17181	99999
+A Range		1962	A10RR			Engine		Engine				^(da10r)-(\d+)$		1			5958	99999
+A Range		1962	A7				Frame		Swing arm			^(ga7)-(\d+)$		1			21120	99999
+A Range		1962	A7SS			Frame		Swing arm			^(ga7)-(\d+)$		1			21120	99999
+A Range		1962	A10				Frame		Swing arm			^(ga7)-(\d+)$		1			21120	99999
+A Range		1962	A10RR			Frame		Swing arm			^(ga7)-(\d+)$		1			21120	99999
+#=======================================================================================================================
+#Class		Year	Model			Part Type	Part Description	Regex				Range Group	Range Start	Range End
+#=======================================================================================================================
+A Range		1953	A10 Super Flash	Engine		Engine				^(ba10s)-(\d+)$		1			101		700
+A Range		1953	A10 Super Flash	Frame		Super Flash			^(ba10)-(\d+)$		1			101		101
+A Range		1954	A10 Super Flash	Engine		Engine				^(ba10s)-(\d+)$		1			701		99999
+A Range		1954	A10 Super Flash	Frame		Super Flash			^(ba10s)-(\d+)$		1			701		99999
+A Range		1959	A10 Super Flash	Engine		Engine				^(ca10sr)-(\d+)$	1			776		99999
+A Range		1959	A10 Super Flash	Frame		Spitfire			^(fa7a)-(\d+)$		1			101		10387
+A Range		1960	A10 Super Flash	Engine		Engine				^(da10sr)-(\d+)$	1			101		400
+A Range		1960	A10 Super Flash	Frame		Spitfire			^(ga7a)-(\d+)$		1			101		400
+A Range		1961	A10 Super Flash	Engine		Engine				^(da10sr)-(\d+)$	1			401		5957
+A Range		1961	A10 Super Flash	Frame		Spitfire			^(ga7a)-(\d+)$		1			401		535
+A Range		1962	A10 Super Flash	Engine		Engine				^(da10sr)-(\d+)$	1			5958	8196
+A Range		1962	A10 Super Flash	Frame		Spitfire			^(ga7a)-(\d+)$		1			536		747
+A Range		1962	A10 Super Flash	Frame		RGS					^(ga10)-(\d+)$		1			101		389
+A Range		1963	A10 Super Flash	Engine		Engine				^(da10sr)-(\d+)$	1			8197	10387
+A Range		1963	A10 Super Flash	Frame		Spitfire			^(ga7a)-(\d+)$		1			748		99999
+A Range		1963	A10 Super Flash	Frame		RGS					^(ga10)-(\d+)$		1			390		1913
+A Range		1963	A10 Super Flash	Engine		Engine				^(da10sr)-(\d+)$	1			10388	99999
+A Range		1963	A10 Super Flash	Frame		RGS					^(ga10)-(\d+)$		1			1914	99999
+#
