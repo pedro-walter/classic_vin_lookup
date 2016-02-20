@@ -1,0 +1,23 @@
+#Part#		Class		Year	Model			Type	Description
+w101		Scooter				1959	Twin engine				Engine		Engine
+101b		Scooter				1959	Twin engine				Frame		Frame
+s-101		Scooter				1960	Single engine			Engine		Engine
+w3201		Scooter				1960	Twin engine				Engine		Engine
+4001		Scooter				1960	Single engine			Frame		Frame
+4001b		Scooter				1960	Twin engine				Frame		Frame
+s-6720		Scooter				1961	Single engine			Engine		Engine
+w11790		Scooter				1961	Twin engine				Engine		Engine
+18800b		Scooter				1961	Twin engine				Frame		Frame
+18800b		Scooter				1961	Single engine			Frame		Frame
+s-11407		Scooter				1962	Single engine			Engine		Engine
+w17800		Scooter				1962	Twin engine				Engine		Engine
+30140b		Scooter				1962	Single engine			Frame		Frame
+30140b		Scooter				1962	Twin engine				Frame		Frame
+s-12498		Scooter				1963	Single engine			Engine		Engine
+w18485		Scooter				1963	Twin engine				Engine		Engine
+31825b		Scooter				1963	Single engine			Frame		Frame
+31825b		Scooter				1963	Twin engine				Frame		Frame
+s-13263		Scooter				1964	Single engine			Engine		Engine
+101b		Scooter				1964	Single engine			Frame		Frame
+s-13576		Scooter				1965	Single engine			Engine		Engine
+33661b		Scooter				1965	Single engine			Frame		Frame

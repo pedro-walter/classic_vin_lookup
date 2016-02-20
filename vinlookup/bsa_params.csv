@@ -38,7 +38,7 @@ Bantam				1955	D3						Frame		Spring				^(bd2s)-(\d+)$		1			34701		55000
 Bantam				1956	D1						Engine		Direct				^(dd)-(\d+)$		1			4801		8576
 Bantam				1956	D1						Engine		Battery				^(ddb)-(\d+)$		1			3301		7848
 Bantam				1956	D1						Frame		Plunger				^(bd2s)-(\d+)$		1			55001		65000
-#1957 didn't hav	e any specifications		, it's likely in the same range as 1956
+#1957 didn't have any specifications, it's likely in the same range as 1956
 Bantam				1957	D1						Engine		Direct				^(dd)-(\d+)$		1			4801		8576
 Bantam				1957	D1						Engine		Battery				^(ddb)-(\d+)$		1			3301		7848
 Bantam				1957	D1						Frame		Plunger				^(bd2s)-(\d+)$		1			55001		65000
@@ -66,7 +66,7 @@ Bantam				1963	D1						Frame		Plunger				^(bd2s)-(\d+)$		1			78746		99999
 Bantam				1956	D3						Engine		Direct				^(bd3)-(\d+)$		1			10401		99999
 Bantam				1956	D3						Engine		Battery				^(bd3b)-(\d+)$		1			12801		99999
 Bantam				1956	D3						Frame		Swing Arm			^(cd3)-(\d+)$		1			101			99999
-#1957 didn't hav	e any specifications, it	's likely in the same range as 1956
+#1957 didn't have any specifications, it's likely in the same range as 1956
 Bantam				1957	D3						Engine		Direct				^(bd3)-(\d+)$		1			10401		99999
 Bantam				1957	D3						Engine		Battery				^(bd3b)-(\d+)$		1			12801		99999
 Bantam				1957	D3						Frame		Swing Arm			^(cd3)-(\d+)$		1			101			99999
@@ -873,136 +873,135 @@ A Range				1963	A10 Super Flash			Frame		RGS					^(ga10)-(\d+)$		1			1914	99999
 #Class				Year	Model					Part Type	Part Description	Regex				Range Group	Range Start	Range End
 #===================================================================================================================================
 #Sorted by m		odel
-A Range				1962	A50						Engine		Engine				^(a50)-(\d+)$			1		101		822
-A Range				1963	A50						Engine		Engine				^(a50)-(\d+)$			1		823		2287
-A Range				1964	A50						Engine		Engine				^(a50a)-(\d+)$			1		101		685
-A Range				1964	A50						Engine		Engine				^(a50a)-(\d+)$			1		686		99999
-A Range				1964	A50 (Police)			Engine		Engine				^(a50ap)-(\d+)$			1		101		120
-A Range				1965	A50 (Police)			Engine		Engine				^(a50ap)-(\d+)$			1		121		99999
-A Range				1962	A65						Engine		Engine				^(a65)-(\d+)$			1		101		1946
-A Range				1963	A65						Engine		Engine				^(a65)-(\d+)$			1		1947	99999
-A Range				1964	A65						Engine		Engine				^(a65a)-(\d+)$			1		101		1133
-A Range				1964	A65						Engine		Engine				^(a65a)-(\d+)$			1		1134	99999
-A Range				1964	A65 (Police)			Engine		Engine				^(a65ap)-(\d+)$			1		101		266
-A Range				1965	A65 (Police)			Engine		Engine				^(a65ap)-(\d+)$			1		267		99999
-A Range				1962	A65R					Engine		Engine				^(a65)-(\d+)$			1		101		1946
-A Range				1963	A65R					Engine		Engine				^(a65)-(\d+)$			1		1947	99999
-A Range				1964	A65R					Engine		Engine				^(a65a)-(\d+)$			1		101		1133
-A Range				1965	A65R					Engine		Engine				^(a65a)-(\d+)$			1		1134	9999
-A Range				1964	A65R (Rev-counter)		Engine		Engine				^(a65c)-(\d+)$			1		101		1081
-A Range				1965	A65R (Rev-counter)		Engine		Engine				^(a65c)-(\d+)$			1		1082	99999
-A Range				1964	A65T/R					Engine		Engine				^(a65b)-(\d+)$			1		101		99999
-A Range				1962	Model above frame		Engine		Engine				^(a50)-(\d+)$			1		101		2287
-A Range				1963	Model above frame		Engine		Engine				^(a50)-(\d+)$			1		2288	5500
-A Range				1964	Model above frame		Engine		Engine				^(a50)-(\d+)$			1		5501	8436
-A Range				1965	Model above frame		Engine		Engine				^(a50)-(\d+)$			1		8437	99999
-A Range				1962	Above rod brake			Engine		Engine				^(a50a)-(\d+)$			1		101		685
-A Range				1963	Above rod brake			Engine		Engine				^(a50)-(\d+)$			1		2701	5500
-A Range				1964	Model below frame		Engine		Engine				^(a50b)-(\d+)$			1		101		4000
-A Range				1965	Model below frame		Engine		Engine				^(a50b)-(\d+)$			1		4001	99999
-A Range				1964	A50C (USA)				Engine		Engine				^(a50b)-(\d+)$			1		101		4000
-A Range				1965	A50C (USA)				Engine		Engine				^(a50d)-(\d+)$			1		101		4000
-A Range				1964	A65L/R					Engine		Engine				^(a65d)-(\d+)$			1		101		1741
-A Range				1965	A65L/R					Engine		Engine				^(a65d)-(\d+)$			1		1742	99999
-A Range				1964	A65SH					Engine		Engine				^(a65e)-(\d+)$			1		101		700
-A Range				1965	A65SH					Engine		Engine				^(a65e)-(\d+)$			1		701		99999
-A Range				1965	A50CC (USA)				Engine		Engine				^(a50b)-(\d+)$			1		507		99999
-A Range				1965	A50C					Engine		Engine				^(a50dc)-(\d+)$			1		101		99999
-A Range				1965	A50CC (UK)				Engine		Engine				^(a50dc)-(\d+)$			1		101		99999
-A Range				1965	A65L					Engine		Engine				^(a65dc)-(\d+)$			1		2158	99999
-A Range				1965	A65LC					Engine		Engine				^(a65dc)-(\d+)$			1		2158	99999
-A Range				1966	A50 Royal Star			Engine		Engine				^(a50r)-(\d+)$			1		101		99999
-A Range				1967	A50 Royal Star			Engine		Engine				^(a50ra)-(\d+)$			1		101		99999
-A Range				1968	A50 Royal Star			Engine		Engine				^(a50rb)-(\d+)$			1		101		99999
-A Range				1969	A50 Royal Star			Engine		Engine				^(a50rc)-(\d+)$			1		101		99999
-A Range				1966	A50 Royal Star			Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Royal Star			Frame		Frame				^(a50ra)-(\d+)$			1		101		99999
-A Range				1968	A50 Royal Star			Frame		Frame				^(a50rb)-(\d+)$			1		101		99999
-A Range				1969	A50 Royal Star			Frame		Frame				^(a50rc)-(\d+)$			1		101		99999
-A Range				1966	A50 Wasp				Engine		Engine				^(a50w)-(\d+)$			1		101		99999
-A Range				1967	A50 Wasp				Engine		Engine				^(a50wa)-(\d+)$			1		101		99999
-A Range				1968	A50 Wasp				Engine		Engine				^(a50wb)-(\d+)$			1		101		99999
-A Range				1969	A50 Wasp				Engine		Engine				^(a50wc)-(\d+)$			1		101		99999
-A Range				1966	A50 Wasp				Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Wasp				Frame		Frame				^(a50wa)-(\d+)$			1		101		99999
-A Range				1968	A50 Wasp				Frame		Frame				^(a50wb)-(\d+)$			1		101		99999
-A Range				1969	A50 Wasp				Frame		Frame				^(a50wc)-(\d+)$			1		101		99999
-A Range				1966	A50 Thunderbolt			Engine		Engine				^(a50t)-(\d+)$			1		101		99999
-A Range				1967	A50 Thunderbolt			Engine		Engine				^(a50ta)-(\d+)$			1		101		99999
-A Range				1968	A50 Thunderbolt			Engine		Engine				^(a50tb)-(\d+)$			1		101		99999
-A Range				1969	A50 Thunderbolt			Engine		Engine				^(a50tc)-(\d+)$			1		101		99999
-A Range				1966	A50 Thunderbolt			Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Thunderbolt			Frame		Frame				^(a50ta)-(\d+)$			1		101		99999
-A Range				1968	A50 Thunderbolt			Frame		Frame				^(a50tb)-(\d+)$			1		101		99999
-A Range				1969	A50 Thunderbolt			Frame		Frame				^(a50tc)-(\d+)$			1		101		99999
-A Range				1966	A50 Lightning			Engine		Engine				^(a50l)-(\d+)$			1		101		99999
-A Range				1967	A50 Lightning			Engine		Engine				^(a50la)-(\d+)$			1		101		99999
-A Range				1968	A50 Lightning			Engine		Engine				^(a50lb)-(\d+)$			1		101		99999
-A Range				1969	A50 Lightning			Engine		Engine				^(a50lc)-(\d+)$			1		101		99999
-A Range				1966	A50 Lightning			Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Lightning			Frame		Frame				^(a50la)-(\d+)$			1		101		99999
-A Range				1968	A50 Lightning			Frame		Frame				^(a50lb)-(\d+)$			1		101		99999
-A Range				1969	A50 Lightning			Frame		Frame				^(a50lc)-(\d+)$			1		101		99999
-A Range				1966	A50 Hornet				Engine		Engine				^(a50h)-(\d+)$			1		101		99999
-A Range				1967	A50 Hornet				Engine		Engine				^(a50ha)-(\d+)$			1		101		99999
-A Range				1968	A50 Hornet				Engine		Engine				^(a50hb)-(\d+)$			1		101		99999
-A Range				1969	A50 Hornet				Engine		Engine				^(a50hc)-(\d+)$			1		101		99999
-A Range				1966	A50 Hornet				Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Hornet				Frame		Frame				^(a50ha)-(\d+)$			1		101		99999
-A Range				1968	A50 Hornet				Frame		Frame				^(a50hb)-(\d+)$			1		101		99999
-A Range				1969	A50 Hornet				Frame		Frame				^(a50hc)-(\d+)$			1		101		99999
-A Range				1968	A50 Firebird			Engine		Engine				^(a50fb)-(\d+)$			1		101		99999
-A Range				1969	A50 Firebird			Engine		Engine				^(a50fc)-(\d+)$			1		101		99999
-A Range				1968	A50 Firebird			Frame		Frame				^(a50fb)-(\d+)$			1		101		99999
-A Range				1969	A50 Firebird			Frame		Frame				^(a50fc)-(\d+)$			1		101		99999
-A Range				1966	A50 Spitfire			Engine		Engine				^(a50s)-(\d+)$			1		101		99999
-A Range				1967	A50 Spitfire			Engine		Engine				^(a50sa)-(\d+)$			1		101		99999
-A Range				1968	A50 Spitfire			Engine		Engine				^(a50sb)-(\d+)$			1		101		99999
-A Range				1966	A50 Spitfire			Frame		Frame				^(a50c)-(\d+)$			1		101		99999
-A Range				1967	A50 Spitfire			Frame		Frame				^(a50sa)-(\d+)$			1		101		99999
-A Range				1968	A50 Spitfire			Frame		Frame				^(a50sb)-(\d+)$			1		101		99999
+A Range				1962	A50						Engine		Engine				^(a50)-(\d+)$		1		101		822
+A Range				1963	A50						Engine		Engine				^(a50)-(\d+)$		1		823		2287
+A Range				1964	A50						Engine		Engine				^(a50a)-(\d+)$		1		101		685
+A Range				1964	A50						Engine		Engine				^(a50a)-(\d+)$		1		686		99999
+A Range				1964	A50 (Police)			Engine		Engine				^(a50ap)-(\d+)$		1		101		120
+A Range				1965	A50 (Police)			Engine		Engine				^(a50ap)-(\d+)$		1		121		99999
+A Range				1962	A65						Engine		Engine				^(a65)-(\d+)$		1		101		1946
+A Range				1963	A65						Engine		Engine				^(a65)-(\d+)$		1		1947	99999
+A Range				1964	A65						Engine		Engine				^(a65a)-(\d+)$		1		101		1133
+A Range				1964	A65						Engine		Engine				^(a65a)-(\d+)$		1		1134	99999
+A Range				1964	A65 (Police)			Engine		Engine				^(a65ap)-(\d+)$		1		101		266
+A Range				1965	A65 (Police)			Engine		Engine				^(a65ap)-(\d+)$		1		267		99999
+A Range				1962	A65R					Engine		Engine				^(a65)-(\d+)$		1		101		1946
+A Range				1963	A65R					Engine		Engine				^(a65)-(\d+)$		1		1947	99999
+A Range				1964	A65R					Engine		Engine				^(a65a)-(\d+)$		1		101		1133
+A Range				1965	A65R					Engine		Engine				^(a65a)-(\d+)$		1		1134	9999
+A Range				1964	A65R (Rev-counter)		Engine		Engine				^(a65c)-(\d+)$		1		101		1081
+A Range				1965	A65R (Rev-counter)		Engine		Engine				^(a65c)-(\d+)$		1		1082	99999
+A Range				1964	A65T/R					Engine		Engine				^(a65b)-(\d+)$		1		101		99999
+A Range				1962	Model above frame		Engine		Engine				^(a50)-(\d+)$		1		101		2287
+A Range				1963	Model above frame		Engine		Engine				^(a50)-(\d+)$		1		2288	5500
+A Range				1964	Model above frame		Engine		Engine				^(a50)-(\d+)$		1		5501	8436
+A Range				1965	Model above frame		Engine		Engine				^(a50)-(\d+)$		1		8437	99999
+A Range				1962	Above rod brake			Engine		Engine				^(a50a)-(\d+)$		1		101		685
+A Range				1963	Above rod brake			Engine		Engine				^(a50)-(\d+)$		1		2701	5500
+A Range				1964	Model below frame		Engine		Engine				^(a50b)-(\d+)$		1		101		4000
+A Range				1965	Model below frame		Engine		Engine				^(a50b)-(\d+)$		1		4001	99999
+A Range				1964	A50C (USA)				Engine		Engine				^(a50b)-(\d+)$		1		101		4000
+A Range				1965	A50C (USA)				Engine		Engine				^(a50d)-(\d+)$		1		101		4000
+A Range				1964	A65L/R					Engine		Engine				^(a65d)-(\d+)$		1		101		1741
+A Range				1965	A65L/R					Engine		Engine				^(a65d)-(\d+)$		1		1742	99999
+A Range				1964	A65SH					Engine		Engine				^(a65e)-(\d+)$		1		101		700
+A Range				1965	A65SH					Engine		Engine				^(a65e)-(\d+)$		1		701		99999
+A Range				1965	A50CC (USA)				Engine		Engine				^(a50b)-(\d+)$		1		507		99999
+A Range				1965	A50C					Engine		Engine				^(a50dc)-(\d+)$		1		101		99999
+A Range				1965	A50CC (UK)				Engine		Engine				^(a50dc)-(\d+)$		1		101		99999
+A Range				1965	A65L					Engine		Engine				^(a65dc)-(\d+)$		1		2158	99999
+A Range				1965	A65LC					Engine		Engine				^(a65dc)-(\d+)$		1		2158	99999
+A Range				1966	A50 Royal Star			Engine		Engine				^(a50r)-(\d+)$		1		101		99999
+A Range				1967	A50 Royal Star			Engine		Engine				^(a50ra)-(\d+)$		1		101		99999
+A Range				1968	A50 Royal Star			Engine		Engine				^(a50rb)-(\d+)$		1		101		99999
+A Range				1969	A50 Royal Star			Engine		Engine				^(a50rc)-(\d+)$		1		101		99999
+A Range				1966	A50 Royal Star			Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Royal Star			Frame		Frame				^(a50ra)-(\d+)$		1		101		99999
+A Range				1968	A50 Royal Star			Frame		Frame				^(a50rb)-(\d+)$		1		101		99999
+A Range				1969	A50 Royal Star			Frame		Frame				^(a50rc)-(\d+)$		1		101		99999
+A Range				1966	A50 Wasp				Engine		Engine				^(a50w)-(\d+)$		1		101		99999
+A Range				1967	A50 Wasp				Engine		Engine				^(a50wa)-(\d+)$		1		101		99999
+A Range				1968	A50 Wasp				Engine		Engine				^(a50wb)-(\d+)$		1		101		99999
+A Range				1969	A50 Wasp				Engine		Engine				^(a50wc)-(\d+)$		1		101		99999
+A Range				1966	A50 Wasp				Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Wasp				Frame		Frame				^(a50wa)-(\d+)$		1		101		99999
+A Range				1968	A50 Wasp				Frame		Frame				^(a50wb)-(\d+)$		1		101		99999
+A Range				1969	A50 Wasp				Frame		Frame				^(a50wc)-(\d+)$		1		101		99999
+A Range				1966	A50 Thunderbolt			Engine		Engine				^(a50t)-(\d+)$		1		101		99999
+A Range				1967	A50 Thunderbolt			Engine		Engine				^(a50ta)-(\d+)$		1		101		99999
+A Range				1968	A50 Thunderbolt			Engine		Engine				^(a50tb)-(\d+)$		1		101		99999
+A Range				1969	A50 Thunderbolt			Engine		Engine				^(a50tc)-(\d+)$		1		101		99999
+A Range				1966	A50 Thunderbolt			Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Thunderbolt			Frame		Frame				^(a50ta)-(\d+)$		1		101		99999
+A Range				1968	A50 Thunderbolt			Frame		Frame				^(a50tb)-(\d+)$		1		101		99999
+A Range				1969	A50 Thunderbolt			Frame		Frame				^(a50tc)-(\d+)$		1		101		99999
+A Range				1966	A50 Lightning			Engine		Engine				^(a50l)-(\d+)$		1		101		99999
+A Range				1967	A50 Lightning			Engine		Engine				^(a50la)-(\d+)$		1		101		99999
+A Range				1968	A50 Lightning			Engine		Engine				^(a50lb)-(\d+)$		1		101		99999
+A Range				1969	A50 Lightning			Engine		Engine				^(a50lc)-(\d+)$		1		101		99999
+A Range				1966	A50 Lightning			Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Lightning			Frame		Frame				^(a50la)-(\d+)$		1		101		99999
+A Range				1968	A50 Lightning			Frame		Frame				^(a50lb)-(\d+)$		1		101		99999
+A Range				1969	A50 Lightning			Frame		Frame				^(a50lc)-(\d+)$		1		101		99999
+A Range				1966	A50 Hornet				Engine		Engine				^(a50h)-(\d+)$		1		101		99999
+A Range				1967	A50 Hornet				Engine		Engine				^(a50ha)-(\d+)$		1		101		99999
+A Range				1968	A50 Hornet				Engine		Engine				^(a50hb)-(\d+)$		1		101		99999
+A Range				1969	A50 Hornet				Engine		Engine				^(a50hc)-(\d+)$		1		101		99999
+A Range				1966	A50 Hornet				Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Hornet				Frame		Frame				^(a50ha)-(\d+)$		1		101		99999
+A Range				1968	A50 Hornet				Frame		Frame				^(a50hb)-(\d+)$		1		101		99999
+A Range				1969	A50 Hornet				Frame		Frame				^(a50hc)-(\d+)$		1		101		99999
+A Range				1968	A50 Firebird			Engine		Engine				^(a50fb)-(\d+)$		1		101		99999
+A Range				1969	A50 Firebird			Engine		Engine				^(a50fc)-(\d+)$		1		101		99999
+A Range				1968	A50 Firebird			Frame		Frame				^(a50fb)-(\d+)$		1		101		99999
+A Range				1969	A50 Firebird			Frame		Frame				^(a50fc)-(\d+)$		1		101		99999
+A Range				1966	A50 Spitfire			Engine		Engine				^(a50s)-(\d+)$		1		101		99999
+A Range				1967	A50 Spitfire			Engine		Engine				^(a50sa)-(\d+)$		1		101		99999
+A Range				1968	A50 Spitfire			Engine		Engine				^(a50sb)-(\d+)$		1		101		99999
+A Range				1966	A50 Spitfire			Frame		Frame				^(a50c)-(\d+)$		1		101		99999
+A Range				1967	A50 Spitfire			Frame		Frame				^(a50sa)-(\d+)$		1		101		99999
+A Range				1968	A50 Spitfire			Frame		Frame				^(a50sb)-(\d+)$		1		101		99999
 #=======================================================================================================================================
 #Class				Year	Model					Part Type	Part Description	Regex				Range Group	Range Start	Range End
 #=======================================================================================================================================
-#Check frame codes, they don't seem to follow the same patter as the other items, (last page of pdf file)
-Scooter				1959	Twin engine				Engine		Engine				^(w)-(\d+)$				1		101		3200
-Scooter				1959	Twin engine				Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1960	Single engine			Engine		Engine				^(s)-(\d+)$				1		101		6719
-Scooter				1960	Twin engine				Engine		Engine				^(w)-(\d+)$				1		3201	11789
-Scooter				1960	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1960	Twin engine				Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1961	Single engine			Engine		Engine				^(s)-(\d+)$				1		6720	11406
-Scooter				1961	Twin engine				Engine		Engine				^(w)-(\d+)$				1		11790	17799
-Scooter				1961	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1961	Twin engine				Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1962	Single engine			Engine		Engine				^(s)-(\d+)$				1		11407	12497
-Scooter				1962	Twin engine				Engine		Engine				^(w)-(\d+)$				1		17800	18484
-Scooter				1962	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1962	Twin engine				Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1963	Single engine			Engine		Engine				^(s)-(\d+)$				1		12498	13262
-Scooter				1963	Twin engine				Engine		Engine				^(w)-(\d+)$				1		18485	99999
-Scooter				1963	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1963	Twin engine				Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1964	Single engine			Engine		Engine				^(s)-(\d+)$				1		13263	13575
-Scooter				1964	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
-Scooter				1965	Single engine			Engine		Engine				^(s)-(\d+)$				1		13576	99999
-Scooter				1965	Single engine			Frame		Frame				^()-(\d+)$				1		101		101
+Scooter				1959	Twin engine				Engine		Engine				^(w)(\d+)$			1		101		3200
+Scooter				1959	Twin engine				Frame		Frame				^(\d+)b$			0		101		4000
+Scooter				1960	Single engine			Engine		Engine				^(s)-(\d+)$			1		101		6719
+Scooter				1960	Twin engine				Engine		Engine				^(w)(\d+)$			1		3201	11789
+Scooter				1960	Single engine			Frame		Frame				^(\d+)$				0		4001	18799
+Scooter				1960	Twin engine				Frame		Frame				^(\d+)b$			0		4001	18799
+Scooter				1961	Single engine			Engine		Engine				^(s)-(\d+)$			1		6720	11406
+Scooter				1961	Twin engine				Engine		Engine				^(w)(\d+)$			1		11790	17799
+Scooter				1961	Single engine			Frame		Frame				^(\d+)b$			0		18800	30139
+Scooter				1961	Twin engine				Frame		Frame				^(\d+)b$			0		18800	30139
+Scooter				1962	Single engine			Engine		Engine				^(s)-(\d+)$			1		11407	12497
+Scooter				1962	Twin engine				Engine		Engine				^(w)(\d+)$			1		17800	18484
+Scooter				1962	Single engine			Frame		Frame				^(\d+)b$			0		30140	31824
+Scooter				1962	Twin engine				Frame		Frame				^(\d+)b$			0		30140	31824
+Scooter				1963	Single engine			Engine		Engine				^(s)-(\d+)$			1		12498	13262
+Scooter				1963	Twin engine				Engine		Engine				^(w)(\d+)$			1		18485	99999
+Scooter				1963	Single engine			Frame		Frame				^(\d+)b$			0		31825	33660
+Scooter				1963	Twin engine				Frame		Frame				^(\d+)b$			0		31825	33660
+Scooter				1964	Single engine			Engine		Engine				^(s)-(\d+)$			1		13263	13575
+Scooter				1964	Single engine			Frame		Frame				^(\d+)b$			0		101		101
+Scooter				1965	Single engine			Engine		Engine				^(s)-(\d+)$			1		13576	99999
+Scooter				1965	Single engine			Frame		Frame				^(\d+)b$			0		33661	34300
 #=================================================================================================================================
 #Class		Year	Model					Part Type	Part Description	Regex				Range Group	Range Start	Range End
 #=================================================================================================================================
-Dandy and Beagle	1957	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	101		11000
-Dandy and Beagle	1957	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	101		11500
-Dandy and Beagle	1958	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	11001	14461
-Dandy and Beagle	1958	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	11501	15164
-Dandy and Beagle	1959	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	14462	17900
-Dandy and Beagle	1959	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	15165	18000
-Dandy and Beagle	1960	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	17901	21650
-Dandy and Beagle	1960	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	18001	21800
-Dandy and Beagle	1961	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	21651	22163
-Dandy and Beagle	1961	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	21801	22267
-Dandy and Beagle	1962	Dandy engine			Engine		Engine				^(dse)-(\d+)$				1	22164	99999
-Dandy and Beagle	1962	Dandy frame				Frame		Frame				^(ds)-(\d+)$				1	22268	99999
-Beagle and Beagle	1964	Beagle engine			Engine		Engine				^(k1)-(\d+)$				1	101		3315
-Beagle and Beagle	1964	Beagle frame			Frame		Frame				^(k1)-(\d+)$				1	101		3315
-Beagle and Beagle	1965	Beagle engine			Engine		Engine				^(k1)-(\d+)$				1	3507	99999
-Beagle and Beagle	1965	Beagle frame			Frame		Frame				^(k1)-(\d+)$				1	3315	3507
+Dandy and Beagle	1957	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	101		11000
+Dandy and Beagle	1957	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	101		11500
+Dandy and Beagle	1958	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	11001	14461
+Dandy and Beagle	1958	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	11501	15164
+Dandy and Beagle	1959	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	14462	17900
+Dandy and Beagle	1959	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	15165	18000
+Dandy and Beagle	1960	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	17901	21650
+Dandy and Beagle	1960	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	18001	21800
+Dandy and Beagle	1961	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	21651	22163
+Dandy and Beagle	1961	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	21801	22267
+Dandy and Beagle	1962	Dandy engine			Engine		Engine				^(dse)-(\d+)$		1	22164	99999
+Dandy and Beagle	1962	Dandy frame				Frame		Frame				^(ds)-(\d+)$		1	22268	99999
+Beagle and Beagle	1964	Beagle engine			Engine		Engine				^(k1)-(\d+)$		1	101		3315
+Beagle and Beagle	1964	Beagle frame			Frame		Frame				^(k1)-(\d+)$		1	101		3315
+Beagle and Beagle	1965	Beagle engine			Engine		Engine				^(k1)-(\d+)$		1	3507	99999
+Beagle and Beagle	1965	Beagle frame			Frame		Frame				^(k1)-(\d+)$		1	3315	3507
