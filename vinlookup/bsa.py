@@ -51,7 +51,6 @@ class BsaMatcher():
     def __init__(self):
         self.bsa_part = None
         self.regex = None
-        self.range_group = None
         self.range_start = None
         self.range_end = None               
 
@@ -74,9 +73,8 @@ for line in param_file:
     bsa_matcher = BsaMatcher()
     bsa_matcher.bsa_part    = bsa_part
     bsa_matcher.regex       = columns[5]
-    bsa_matcher.range_group = int(columns[6])
-    bsa_matcher.range_start = int(columns[7])
-    bsa_matcher.range_end   = int(columns[8])
+    bsa_matcher.range_start = int(columns[6])
+    bsa_matcher.range_end   = int(columns[7])
     
     bsa_matchers.append(bsa_matcher)
     
@@ -93,7 +91,7 @@ def decode(vin):
         match = re.match(matcher.regex, vin)
         if match:
             try:
-                vin_num = match.groups()[matcher.range_group]
+                vin_num = match.groups()[0]
                 if matcher.range_start <= int(vin_num) <= matcher.range_end:
                     match_list.append(matcher.bsa_part)
             except:
@@ -101,8 +99,6 @@ def decode(vin):
     return match_list
     
 if __name__ == '__main__':
-    import pdb
-    pdb.set_trace()
     #Prepare command-line execution
     import argparse
     
@@ -118,7 +114,7 @@ if __name__ == '__main__':
             'DDB-4309',
             'BD2S-62600',
             'DD-9277',
-            'DDB-9016',
+            'DDB-9016',                                                                                                                                               
             'BD2S-66602',
             'DD-11110',
             'DDB-12180',
