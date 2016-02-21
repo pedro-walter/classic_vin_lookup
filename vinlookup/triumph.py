@@ -97,9 +97,10 @@ def decode(vin):
         if m1 and 'Twins' not in row[3]:
             try:
                 vin_num = m1.groups()[row[1][0]]
-                #print(vin_num)
+                #print(row, vin_num)
                 if row[1][1] <= int(vin_num) <= row[1][2]:
-                    print(row[3], v)
+                    #print(row[3], v)
+                    print(row[3])
                     match_list.append(row[3])
             except:
                 pass
